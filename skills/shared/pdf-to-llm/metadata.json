@@ -1,7 +1,7 @@
 {
   "name": "pdf-to-llm",
-  "version": "1.0.0",
-  "description": "Convert PDF documents into LLM-friendly formats with intelligent summarization",
+  "version": "1.1.0",
+  "description": "Convert PDF documents into LLM-friendly formats with intelligent extraction",
   "author": "chart-skills",
   "license": "MIT",
   "compatibility": {
@@ -13,6 +13,7 @@
     "conversion",
     "summarization",
     "data-extraction",
+    "tables",
     "financial",
     "documents"
   ],
@@ -20,22 +21,45 @@
     "system": [
       "pdftotext (poppler-utils)"
     ],
-    "python": ">=3.8"
+    "python": ">=3.8",
+    "optional": [
+      "anthropic (for LLM mode)"
+    ]
   },
   "files": {
     "claude-code": "skill.md",
     "claude-ai": "skill.claude.txt",
-    "script": "../../scripts/pdf_digestible.py"
+    "script": "../../scripts/pdf_to_llm.py",
+    "legacy_script": "../../scripts/pdf_digestible.py"
   },
   "outputs": [
     "json",
     "jsonl",
     "markdown"
   ],
+  "modes": {
+    "auto": "Uses LLM if API key available, otherwise basic extraction",
+    "llm": "Intelligent extraction using Claude (requires ANTHROPIC_API_KEY)",
+    "basic": "Pattern-based extraction (no API key required)"
+  },
   "changelog": [
     {
+      "version": "1.1.0",
+      "date": "2026-02-06",
+      "changes": [
+        "Added LLM-powered intelligent extraction mode",
+        "Document metadata extraction (title, entity, date period)",
+        "Section detection and heading identification",
+        "Structured table extraction with headers and rows",
+        "Key figure extraction with labels, values, and units",
+        "Dual mode support: LLM (API key) and basic (no API key)",
+        "Parallel page processing for LLM mode",
+        "Page range selection for targeted processing"
+      ]
+    },
+    {
       "version": "1.0.0",
-      "date": "2025-02-06",
+      "date": "2026-02-06",
       "changes": [
         "Initial release",
         "Support for JSON, JSONL, and Markdown output formats",
