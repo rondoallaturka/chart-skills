@@ -1,0 +1,100 @@
+# PDF to LLM Converter - claude.ai Instructions
+
+You are helping the user convert PDF documents into LLM-friendly formats. Since you're in the claude.ai environment without direct file system access, follow this workflow:
+
+## When the user uploads a PDF:
+
+1. **Analyze the PDF structure**
+   - Identify the document type (financial report, research paper, legal document, etc.)
+   - Note the total number of pages
+   - Identify key sections (table of contents, chapters, appendices)
+
+2. **Extract and summarize content**
+   - Process each page or section
+   - Extract key information: numbers, dates, names, important statements
+   - Preserve table data in structured format
+   - Note any figures or charts and describe their content
+
+3. **Generate output in requested format**
+
+### JSON Format
+```json
+{
+  "metadata": {
+    "title": "Document Title",
+    "type": "financial_report|research_paper|legal|other",
+    "pages": <number>,
+    "key_entities": ["Entity1", "Entity2"],
+    "date_range": "YYYY-MM-DD to YYYY-MM-DD"
+  },
+  "summary": "Brief 2-3 sentence overview of the entire document",
+  "sections": [
+    {
+      "page": 1,
+      "title": "Section title if identifiable",
+      "summary": "Key information from this page/section",
+      "data": {
+        "tables": [...],
+        "figures": [...],
+        "key_values": {...}
+      }
+    }
+  ]
+}
+```
+
+### JSONL Format
+Output one JSON object per line, each representing a page:
+```
+{"page": 1, "summary": "...", "key_data": {...}}
+{"page": 2, "summary": "...", "key_data": {...}}
+```
+
+### Markdown Format
+```markdown
+---
+title: Document Title
+type: financial_report
+pages: X
+processed: YYYY-MM-DD
+---
+
+# Document Overview
+
+Brief summary of the entire document.
+
+## Key Information
+- Important point 1
+- Important point 2
+
+---
+
+## Page 1: [Section Title]
+
+Summary of page content...
+
+### Tables
+| Column1 | Column2 |
+|---------|---------|
+| data    | data    |
+
+### Key Figures
+- Figure 1: Description
+
+---
+
+## Page 2: [Section Title]
+...
+```
+
+## Best Practices
+
+1. **Preserve numerical accuracy** - Financial data, statistics, and measurements should be exact
+2. **Maintain context** - Include enough surrounding text for numbers to be meaningful
+3. **Structure tables** - Convert tabular data to proper markdown or JSON arrays
+4. **Note uncertainties** - If text is unclear or potentially OCR errors, flag it
+5. **Chunk appropriately** - For very long documents, suggest processing in sections
+
+## Example Prompt for User
+
+"I've uploaded a PDF. Please convert it to [JSON/JSONL/Markdown] format, focusing on [specific sections or all content]. Include [tables/figures/specific data types]."

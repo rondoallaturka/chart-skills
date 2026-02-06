@@ -1,0 +1,47 @@
+{
+  "name": "pdf-to-llm",
+  "version": "1.0.0",
+  "description": "Convert PDF documents into LLM-friendly formats with intelligent summarization",
+  "author": "chart-skills",
+  "license": "MIT",
+  "compatibility": {
+    "claude-code": true,
+    "claude-ai": true
+  },
+  "tags": [
+    "pdf",
+    "conversion",
+    "summarization",
+    "data-extraction",
+    "financial",
+    "documents"
+  ],
+  "dependencies": {
+    "system": [
+      "pdftotext (poppler-utils)"
+    ],
+    "python": ">=3.8"
+  },
+  "files": {
+    "claude-code": "skill.md",
+    "claude-ai": "skill.claude.txt",
+    "script": "../../scripts/pdf_digestible.py"
+  },
+  "outputs": [
+    "json",
+    "jsonl",
+    "markdown"
+  ],
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "2025-02-06",
+      "changes": [
+        "Initial release",
+        "Support for JSON, JSONL, and Markdown output formats",
+        "Extractive summarization using frequency-based algorithm",
+        "Page-by-page processing with configurable summary ratio"
+      ]
+    }
+  ]
+}
