@@ -47,6 +47,7 @@ ORIGIN_GROUPS = {
     "4031": "Peruvian",
     "4033": "Venezuelan",
     "4041": "Spaniard",
+    "519": "Brazilian",
 }
 
 # ACS variables (S0201 = Selected Population Profile)
