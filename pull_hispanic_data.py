@@ -29,6 +29,7 @@ import sys
 # Hispanic origin group codes for S0201 (popgroup parameter)
 # These codes correspond to the "Selected Population" filter on data.census.gov
 ORIGIN_GROUPS = {
+    "001": "Total population",
     "400": "Hispanic or Latino (of any race)",
     "4015": "Mexican",
     "4038": "Puerto Rican",
@@ -181,10 +182,10 @@ def main():
                 "bachelors_pct": None,
             })
 
-    # Step 3: Build chart-ready scatter JSON (excluding "All Hispanic" aggregate)
+    # Step 3: Build chart-ready scatter JSON (excluding aggregate rows)
     scatter_data = []
     for r in results:
-        if r["median_household_income"] and r["bachelors_pct"] and r["code"] != "400":
+        if r["median_household_income"] and r["bachelors_pct"] and r["code"] not in ("001", "400"):
             scatter_data.append({
                 "x": round(r["bachelors_pct"], 1),
                 "y": round(r["median_household_income"] / 1000, 1),  # in $K
