@@ -18,8 +18,8 @@ Skills can optionally include supporting Python scripts in `scripts/`.
 chart-skills/
 ├── skills/
 │   ├── shared/              # Skills that work in both environments
-│   │   ├── census-data/     # Census Bureau API data fetching
-│   │   └── pdf-to-llm/     # PDF to LLM-friendly format conversion
+│   │   ├── census-data/      # Census Bureau API data fetching
+│   │   └── pdf-to-llm/      # PDF to LLM-friendly format conversion
 │   ├── claude-code/         # CLI-specific skills
 │   └── claude-ai/           # Web-specific skills
 ├── scripts/                 # Supporting Python scripts

@@ -36,7 +36,7 @@ Census API calls frequently fail on the first attempt. Variable names shift betw
    ```python
    def search_variables(year, endpoint, keyword):
        """Search Census API for variable names matching a keyword."""
-       url = f"https://api.census.gov/data/{year}/acs/acs5/{endpoint}/variables.json"
+       url = f"https://api.census.gov/data/{year}/{endpoint}/variables.json"
        r = requests.get(url, timeout=30)
        if r.status_code == 200:
            variables = r.json().get("variables", {})

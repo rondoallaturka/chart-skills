@@ -145,7 +145,7 @@ The `/spp` endpoint requires a `POPGROUP` parameter. These codes identify popula
 
 **Discovery method**:
 ```python
-url = "https://api.census.gov/data/2023/acs/acs1/spp/variables/POPGROUP.json"
+url = "https://api.census.gov/data/2024/acs/acs1/spp/variables/POPGROUP.json"
 r = requests.get(url, timeout=15)
 items = r.json()["values"]["item"]
 # Search by keyword
@@ -221,7 +221,8 @@ else:
 ### Step 6: Process and save results
 
 ```python
-import csv, json
+import csv
+import json
 
 # Census API returns [header, row1, row2, ...]
 data = r.json()

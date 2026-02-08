@@ -31,7 +31,6 @@ import json
 import csv
 import sys
 import argparse
-import time
 
 
 # ---------------------------------------------------------------------------
@@ -140,7 +139,11 @@ class CensusFetcher:
 
         Returns list of (variable_name, label) tuples.
         """
-        path = ENDPOINTS.get(endpoint_key, ENDPOINTS.get("acs5"))
+        path = ENDPOINTS.get(endpoint_key)
+        if not path:
+            print(f"Unknown endpoint key: {endpoint_key}")
+            print(f"Available: {', '.join(sorted(ENDPOINTS.keys()))}")
+            return []
         url = f"{BASE}/{year}{path}/variables.json"
 
         try:
@@ -313,6 +316,9 @@ Examples:
         extra = {}
         if args.param:
             for p in args.param:
+                if "=" not in p:
+                    print(f"Error: Invalid parameter format '{p}'. Use KEY=VALUE.", file=sys.stderr)
+                    sys.exit(1)
                 k, v = p.split("=", 1)
                 extra[k] = v
 
