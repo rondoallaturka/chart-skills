@@ -47,8 +47,36 @@ python scripts/pdf_to_llm.py --file document.pdf --mode llm --output result.md -
 python scripts/pdf_to_llm.py --file document.pdf --pages "1,2,10-20" --output sample.json
 ```
 
+### census-data (v1.0.0)
+
+Fetch US Census Bureau data via the public API with iterative discovery of endpoints, variables, and geography.
+
+**Features:**
+- Iterative discovery workflow (probe endpoints, find variable names, adjust)
+- Covers ACS 1-Year, 5-Year, Subject Tables, Data Profiles, Selected Population Profiles, Decennial Census, County Business Patterns
+- Variable search by keyword
+- POPGROUP code discovery for population subgroups
+- Common variable cheat sheet and 10 documented pitfalls
+
+**Usage:**
+
+```bash
+# Search for variable names
+python scripts/census_fetch.py search 2023 acs5 "median household income"
+
+# Fetch median household income by state
+python scripts/census_fetch.py fetch 2023 acs5 "NAME,B19013_001E" "state:*" -o output.csv
+
+# Fetch poverty rate by county in Texas
+python scripts/census_fetch.py fetch 2023 acs5_subject "NAME,S1701_C03_001E" "county:*" --in "state:48"
+
+# Discover POPGROUP codes
+python scripts/census_fetch.py popgroups 2024 "mexican"
+```
+
 ### Claude Code
 ```
+/census-data median household income by state
 /pdf-to-llm path/to/document.pdf --format markdown --mode auto
 ```
 
@@ -73,6 +101,7 @@ Skills follow semantic versioning (MAJOR.MINOR.PATCH):
 ## Dependencies
 
 - Python 3.8+
+- `requests`: `pip install requests`
 - `pdftotext` (poppler-utils): `apt install poppler-utils`
 - `anthropic` (optional, for LLM mode): `pip install anthropic`
 

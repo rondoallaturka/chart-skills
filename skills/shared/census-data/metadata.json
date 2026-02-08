@@ -1,0 +1,69 @@
+{
+  "name": "census-data",
+  "version": "1.0.0",
+  "description": "Fetch US Census Bureau data via the public API with iterative discovery of endpoints, variables, and geography",
+  "author": "chart-skills",
+  "license": "MIT",
+  "compatibility": {
+    "claude-code": true,
+    "claude-ai": true
+  },
+  "tags": [
+    "census",
+    "demographics",
+    "economics",
+    "government-data",
+    "api",
+    "data-fetching",
+    "acs",
+    "income",
+    "education",
+    "housing",
+    "population"
+  ],
+  "dependencies": {
+    "python": ">=3.8",
+    "required": [
+      "requests"
+    ]
+  },
+  "files": {
+    "claude-code": "skill.md",
+    "claude-ai": "skill.claude.txt",
+    "script": "../../scripts/census_fetch.py"
+  },
+  "outputs": [
+    "csv",
+    "json"
+  ],
+  "api": {
+    "base_url": "https://api.census.gov/data",
+    "auth": "Optional API key (free at https://api.census.gov/data/key_signup.html)",
+    "rate_limits": "No hard limit without key, but throttling may occur on bulk queries"
+  },
+  "datasets": {
+    "acs5": "ACS 5-Year Estimates (all geographies, most recent: 2023)",
+    "acs1": "ACS 1-Year Estimates (areas 65K+ pop, most recent: 2024)",
+    "acs5_subject": "ACS 5-Year Subject Tables (pre-computed percentages)",
+    "acs5_profile": "ACS 5-Year Data Profiles (curated indicators)",
+    "acs1_spp": "ACS 1-Year Selected Population Profiles (by subgroup)",
+    "dec_pl": "Decennial Census Redistricting Data (2020)",
+    "cbp": "County Business Patterns (establishments, payroll)",
+    "pep": "Population Estimates Program (annual estimates)"
+  },
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "2026-02-08",
+      "changes": [
+        "Initial release",
+        "Iterative discovery workflow for endpoints, variables, and geography",
+        "Tested endpoints: ACS 1-Year, ACS 5-Year, Subject Tables, Data Profiles, SPP, Decennial, CBP",
+        "Common variable cheat sheet with known-good 2023 mappings",
+        "POPGROUP code reference for Selected Population Profiles",
+        "Reusable census_fetch.py helper script",
+        "Documented 10 common pitfalls from real debugging sessions"
+      ]
+    }
+  ]
+}
