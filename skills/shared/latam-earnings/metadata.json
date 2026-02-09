@@ -1,0 +1,85 @@
+{
+  "name": "latam-earnings",
+  "version": "0.1.0",
+  "description": "Fetch earnings reports and financial statements for Latin American companies from SEC EDGAR (20-F/6-K) and CVM Brazil (DFP/ITR)",
+  "author": "chart-skills",
+  "license": "MIT",
+  "compatibility": {
+    "claude-code": true,
+    "claude-ai": true
+  },
+  "tags": [
+    "earnings",
+    "financial-statements",
+    "latin-america",
+    "brazil",
+    "mexico",
+    "chile",
+    "colombia",
+    "argentina",
+    "sec",
+    "edgar",
+    "cvm",
+    "adr",
+    "20-F",
+    "6-K",
+    "ifrs",
+    "b3",
+    "data-fetching",
+    "api"
+  ],
+  "dependencies": {
+    "python": ">=3.8",
+    "required": [
+      "requests",
+      "pandas"
+    ]
+  },
+  "files": {
+    "claude-code": "skill.md",
+    "research": "research.md",
+    "script": "../../scripts/latam_earnings.py"
+  },
+  "outputs": [
+    "csv",
+    "json"
+  ],
+  "sources": {
+    "sec_edgar": {
+      "base_url": "https://data.sec.gov",
+      "auth": "None (User-Agent header required)",
+      "rate_limits": "10 requests/second",
+      "coverage": "US-listed LatAm companies (ADRs, direct listings)",
+      "filing_types": ["20-F", "6-K"],
+      "format": "JSON (XBRL), HTML, PDF"
+    },
+    "cvm_brazil": {
+      "base_url": "https://dados.cvm.gov.br",
+      "auth": "None",
+      "rate_limits": "No documented limit",
+      "coverage": "All B3-listed Brazilian companies (~400+)",
+      "filing_types": ["DFP", "ITR"],
+      "format": "CSV (in ZIP archives)"
+    }
+  },
+  "company_universe": {
+    "us_listed_count": "20+ major LatAm ADRs tracked",
+    "brazil_b3_count": "400+ via CVM",
+    "countries": ["Brazil", "Mexico", "Argentina", "Chile", "Colombia", "Peru", "Panama"]
+  },
+  "changelog": [
+    {
+      "version": "0.1.0",
+      "date": "2026-02-09",
+      "changes": [
+        "Initial research and skill design",
+        "SEC EDGAR integration for 20-F/6-K filings (XBRL + document access)",
+        "CVM Brazil integration for DFP/ITR financial data (CSV downloads)",
+        "Known CIK mapping for 20+ major LatAm companies",
+        "Portuguese-English account label reference for CVM data",
+        "Workflow decision tree for source selection",
+        "Research document covering all LatAm exchange data sources"
+      ]
+    }
+  ]
+}
