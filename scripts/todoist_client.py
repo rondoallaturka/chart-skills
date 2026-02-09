@@ -401,16 +401,28 @@ def _task_to_dict(t) -> dict:
         "created_at": t.created_at,
     }
     if t.due:
-        d["due"] = {
-            "date": t.due.date,
-            "datetime": t.due.datetime,
-            "is_recurring": t.due.is_recurring,
-            "string": t.due.string,
-        }
+        # due.date is a datetime.datetime or datetime.date object in the SDK
+        due_date_val = t.due.date
+        if isinstance(due_date_val, datetime):
+            d["due"] = {
+                "date": due_date_val.strftime("%Y-%m-%d"),
+                "datetime": due_date_val.isoformat(),
+                "is_recurring": t.due.is_recurring,
+                "string": t.due.string,
+                "timezone": getattr(t.due, "timezone", None),
+            }
+        else:
+            d["due"] = {
+                "date": str(due_date_val),
+                "datetime": None,
+                "is_recurring": t.due.is_recurring,
+                "string": t.due.string,
+                "timezone": getattr(t.due, "timezone", None),
+            }
     else:
         d["due"] = None
     if hasattr(t, "deadline") and t.deadline:
-        d["deadline"] = {"date": t.deadline.date}
+        d["deadline"] = {"date": str(t.deadline.date)}
     if hasattr(t, "duration") and t.duration:
         d["duration"] = {"amount": t.duration.amount, "unit": t.duration.unit}
     return d
@@ -421,7 +433,13 @@ def _parse_due_date(task) -> Optional[date]:
     if not task.due:
         return None
     try:
-        date_str = task.due.date
+        due_val = task.due.date
+        if isinstance(due_val, datetime):
+            return due_val.date()
+        elif isinstance(due_val, date):
+            return due_val
+        # Fallback: try parsing as string
+        date_str = str(due_val)
         if "T" in date_str:
             return datetime.fromisoformat(date_str).date()
         return date.fromisoformat(date_str)
