@@ -1,4 +1,10 @@
 year,group,popgroup_code,median_household_income
+2008,Total US population,001,52029
+2008,"White alone, not Hispanic or Latino",451,56826
+2008,"Black or African American alone, non-Hispanic",453,35435
+2008,"Asian alone, not Hispanic or Latino",457,70219
+2008,"AIAN alone, not Hispanic or Latino",455,37398
+2008,"NHPI alone, not Hispanic or Latino",459,60335
 2008,Hispanic or Latino (any race),400,41470
 2008,Mexican,401,40647
 2008,Puerto Rican,402,39039
@@ -18,6 +24,12 @@ year,group,popgroup_code,median_household_income
 2008,Venezuelan,422,53673
 2008,Spaniard,423,54526
 2008,Brazilian,519,50900
+2009,Total US population,001,50221
+2009,"White alone, not Hispanic or Latino",451,54671
+2009,"Black or African American alone, non-Hispanic",453,33449
+2009,"Asian alone, not Hispanic or Latino",457,68930
+2009,"AIAN alone, not Hispanic or Latino",455,34776
+2009,"NHPI alone, not Hispanic or Latino",459,53457
 2009,Hispanic or Latino (any race),400,39923
 2009,Mexican,401,39115
 2009,Puerto Rican,402,37052
@@ -37,6 +49,12 @@ year,group,popgroup_code,median_household_income
 2009,Venezuelan,422,50584
 2009,Spaniard,423,52761
 2009,Brazilian,519,47957
+2011,Total US population,001,50502
+2011,"White alone, not Hispanic or Latino",451,55305
+2011,"Black or African American alone, non-Hispanic",453,33232
+2011,"Asian alone, not Hispanic or Latino",457,68108
+2011,"AIAN alone, not Hispanic or Latino",455,34899
+2011,"NHPI alone, not Hispanic or Latino",459,49425
 2011,Hispanic or Latino (any race),400,39589
 2011,Mexican,401,38884
 2011,Puerto Rican,402,36460
@@ -56,6 +74,12 @@ year,group,popgroup_code,median_household_income
 2011,Venezuelan,422,52162
 2011,Spaniard,423,53649
 2011,Brazilian,519,47147
+2012,Total US population,001,51371
+2012,"White alone, not Hispanic or Latino",451,56565
+2012,"Black or African American alone, non-Hispanic",453,33762
+2012,"Asian alone, not Hispanic or Latino",457,70766
+2012,"AIAN alone, not Hispanic or Latino",455,35190
+2012,"NHPI alone, not Hispanic or Latino",459,51592
 2012,Hispanic or Latino (any race),400,40417
 2012,Mexican,401,39962
 2012,Puerto Rican,402,36543
@@ -75,6 +99,12 @@ year,group,popgroup_code,median_household_income
 2012,Venezuelan,422,57194
 2012,Spaniard,423,55924
 2012,Brazilian,519,53560
+2013,Total US population,001,52250
+2013,"White alone, not Hispanic or Latino",451,57684
+2013,"Black or African American alone, non-Hispanic",453,34789
+2013,"Asian alone, not Hispanic or Latino",457,72627
+2013,"AIAN alone, not Hispanic or Latino",455,36067
+2013,"NHPI alone, not Hispanic or Latino",459,51032
 2013,Hispanic or Latino (any race),400,41508
 2013,Mexican,401,40848
 2013,Puerto Rican,402,39660
@@ -94,6 +124,12 @@ year,group,popgroup_code,median_household_income
 2013,Venezuelan,422,55385
 2013,Spaniard,423,54723
 2013,Brazilian,519,51377
+2014,Total US population,001,53657
+2014,"White alone, not Hispanic or Latino",451,59622
+2014,"Black or African American alone, non-Hispanic",453,35434
+2014,"Asian alone, not Hispanic or Latino",457,74275
+2014,"AIAN alone, not Hispanic or Latino",455,36654
+2014,"NHPI alone, not Hispanic or Latino",459,52567
 2014,Hispanic or Latino (any race),400,42748
 2014,Mexican,401,42212
 2014,Puerto Rican,402,39322
@@ -113,6 +149,12 @@ year,group,popgroup_code,median_household_income
 2014,Venezuelan,422,58808
 2014,Spaniard,423,61065
 2014,Brazilian,519,54675
+2015,Total US population,001,55775
+2015,"White alone, not Hispanic or Latino",451,61394
+2015,"Black or African American alone, non-Hispanic",453,36515
+2015,"Asian alone, not Hispanic or Latino",457,77579
+2015,"AIAN alone, not Hispanic or Latino",455,38248
+2015,"NHPI alone, not Hispanic or Latino",459,56727
 2015,Hispanic or Latino (any race),400,44782
 2015,Mexican,401,44433
 2015,Puerto Rican,402,40774
@@ -132,6 +174,12 @@ year,group,popgroup_code,median_household_income
 2015,Venezuelan,422,55656
 2015,Spaniard,423,61297
 2015,Brazilian,519,56200
+2016,Total US population,001,57617
+2016,"White alone, not Hispanic or Latino",451,63155
+2016,"Black or African American alone, non-Hispanic",453,38506
+2016,"Asian alone, not Hispanic or Latino",457,80901
+2016,"AIAN alone, not Hispanic or Latino",455,38473
+2016,"NHPI alone, not Hispanic or Latino",459,58119
 2016,Hispanic or Latino (any race),400,46882
 2016,Mexican,401,46633
 2016,Puerto Rican,402,42856
@@ -151,6 +199,12 @@ year,group,popgroup_code,median_household_income
 2016,Venezuelan,422,57205
 2016,Spaniard,423,63566
 2016,Brazilian,519,56151
+2017,Total US population,001,60336
+2017,"White alone, not Hispanic or Latino",451,65845
+2017,"Black or African American alone, non-Hispanic",453,40165
+2017,"Asian alone, not Hispanic or Latino",457,83762
+2017,"AIAN alone, not Hispanic or Latino",455,40936
+2017,"NHPI alone, not Hispanic or Latino",459,62024
 2017,Hispanic or Latino (any race),400,49793
 2017,Mexican,401,49439
 2017,Puerto Rican,402,44731
@@ -170,6 +224,12 @@ year,group,popgroup_code,median_household_income
 2017,Venezuelan,422,52391
 2017,Spaniard,423,67164
 2017,Brazilian,519,60118
+2018,Total US population,001,61937
+2018,"White alone, not Hispanic or Latino",451,67937
+2018,"Black or African American alone, non-Hispanic",453,41495
+2018,"Asian alone, not Hispanic or Latino",457,87587
+2018,"AIAN alone, not Hispanic or Latino",455,42535
+2018,"NHPI alone, not Hispanic or Latino",459,63860
 2018,Hispanic or Latino (any race),400,51404
 2018,Mexican,401,51204
 2018,Puerto Rican,402,46809
@@ -189,6 +249,12 @@ year,group,popgroup_code,median_household_income
 2018,Venezuelan,422,57967
 2018,Spaniard,423,70480
 2018,Brazilian,519,61914
+2019,Total US population,001,65712
+2019,"White alone, not Hispanic or Latino",451,71664
+2019,"Black or African American alone, non-Hispanic",453,43771
+2019,"Asian alone, not Hispanic or Latino",457,94048
+2019,"AIAN alone, not Hispanic or Latino",455,43475
+2019,"NHPI alone, not Hispanic or Latino",459,68258
 2019,Hispanic or Latino (any race),400,55658
 2019,Mexican,401,55943
 2019,Puerto Rican,402,50473
@@ -208,6 +274,12 @@ year,group,popgroup_code,median_household_income
 2019,Venezuelan,422,54496
 2019,Spaniard,423,71903
 2019,Brazilian,519,63982
+2021,Total US population,001,69717
+2021,"White alone, not Hispanic or Latino",451,75412
+2021,"Black or African American alone, non-Hispanic",453,46679
+2021,"Asian alone, not Hispanic or Latino",457,100843
+2021,"AIAN alone, not Hispanic or Latino",455,46221
+2021,"NHPI alone, not Hispanic or Latino",459,72234
 2021,Hispanic or Latino (any race),400,60566
 2021,Mexican,401,60895
 2021,Puerto Rican,402,53621
@@ -227,6 +299,12 @@ year,group,popgroup_code,median_household_income
 2021,Venezuelan,422,66615
 2021,Spaniard,423,74364
 2021,Brazilian,519,70904
+2022,Total US population,001,74755
+2022,"White alone, not Hispanic or Latino",451,80404
+2022,"Black or African American alone, non-Hispanic",453,51286
+2022,"Asian alone, not Hispanic or Latino",457,107367
+2022,"AIAN alone, not Hispanic or Latino",455,50104
+2022,"NHPI alone, not Hispanic or Latino",459,74058
 2022,Hispanic or Latino (any race),400,65882
 2022,Mexican,401,66481
 2022,Puerto Rican,402,59268
@@ -246,6 +324,12 @@ year,group,popgroup_code,median_household_income
 2022,Venezuelan,422,69830
 2022,Spaniard,423,82993
 2022,Brazilian,519,73285
+2023,Total US population,001,77719
+2023,"White alone, not Hispanic or Latino",451,83121
+2023,"Black or African American alone, non-Hispanic",453,53789
+2023,"Asian alone, not Hispanic or Latino",457,112280
+2023,"AIAN alone, not Hispanic or Latino",455,51238
+2023,"NHPI alone, not Hispanic or Latino",459,76665
 2023,Hispanic or Latino (any race),400,69467
 2023,Mexican,4015,70311
 2023,Puerto Rican,4038,61597
@@ -265,6 +349,12 @@ year,group,popgroup_code,median_household_income
 2023,Venezuelan,4033,72777
 2023,Spaniard,4041,82381
 2023,Brazilian,519,74699
+2024,Total US population,001,81604
+2024,"White alone, not Hispanic or Latino",451,87572
+2024,"Black or African American alone, non-Hispanic",453,56669
+2024,"Asian alone, not Hispanic or Latino",457,117894
+2024,"AIAN alone, not Hispanic or Latino",455,54485
+2024,"NHPI alone, not Hispanic or Latino",459,85674
 2024,Hispanic or Latino (any race),400,72574
 2024,Mexican,4015,74008
 2024,Puerto Rican,4038,64509

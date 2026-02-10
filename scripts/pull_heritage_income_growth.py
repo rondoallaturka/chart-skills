@@ -40,6 +40,16 @@ from scripts.census_fetch import CensusFetcher, clean_value, save_csv, save_json
 # Configuration
 # ---------------------------------------------------------------------------
 
+# Major demographic groups — codes are stable across all years (no old/new split)
+DEMOGRAPHIC_GROUPS = [
+    {"label": "Total US population",                          "old_code": "001", "new_code": "001"},
+    {"label": "White alone, not Hispanic or Latino",          "old_code": "451", "new_code": "451"},
+    {"label": "Black or African American alone, non-Hispanic", "old_code": "453", "new_code": "453"},
+    {"label": "Asian alone, not Hispanic or Latino",          "old_code": "457", "new_code": "457"},
+    {"label": "AIAN alone, not Hispanic or Latino",           "old_code": "455", "new_code": "455"},
+    {"label": "NHPI alone, not Hispanic or Latino",           "old_code": "459", "new_code": "459"},
+]
+
 # Heritage groups with POPGROUP codes (old_code for <=2022, new_code for >=2023)
 HERITAGE_GROUPS = [
     {"label": "Hispanic or Latino (any race)", "old_code": "400", "new_code": "400"},
@@ -62,6 +72,8 @@ HERITAGE_GROUPS = [
     {"label": "Spaniard",                      "old_code": "423", "new_code": "4041"},
     {"label": "Brazilian",                     "old_code": "519", "new_code": "519"},
 ]
+
+ALL_GROUPS = DEMOGRAPHIC_GROUPS + HERITAGE_GROUPS
 
 # Years with SPP data available (no 2010 due to API error, no 2020 due to COVID)
 AVAILABLE_YEARS = [2008, 2009, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023, 2024]
@@ -88,14 +100,14 @@ def popgroup_code(group, year):
 # ---------------------------------------------------------------------------
 
 def fetch_all_data(fetcher):
-    """Fetch median household income for all heritage groups across all years."""
+    """Fetch median household income for all groups across all years."""
     records = []
-    total_requests = len(AVAILABLE_YEARS) * len(HERITAGE_GROUPS)
+    total_requests = len(AVAILABLE_YEARS) * len(ALL_GROUPS)
     completed = 0
 
     for year in AVAILABLE_YEARS:
         var = income_variable(year)
-        for group in HERITAGE_GROUPS:
+        for group in ALL_GROUPS:
             code = popgroup_code(group, year)
             completed += 1
 
@@ -222,7 +234,7 @@ def build_chart_json(records):
 def main():
     print("Fetching historical median household income by heritage group...")
     print(f"Years: {AVAILABLE_YEARS[0]}-{AVAILABLE_YEARS[-1]} ({len(AVAILABLE_YEARS)} data points)")
-    print(f"Groups: {len(HERITAGE_GROUPS)}")
+    print(f"Groups: {len(ALL_GROUPS)} ({len(DEMOGRAPHIC_GROUPS)} demographic + {len(HERITAGE_GROUPS)} heritage)")
     print(f"Note: 2010 excluded (Census API error), 2020 excluded (no ACS 1-Year due to COVID)")
     print()
 
@@ -251,18 +263,19 @@ def main():
     save_json(chart_data, "heritage_income_growth.json")
 
     # Print summary
-    print("\n" + "=" * 80)
-    print("INCOME GROWTH BY HERITAGE GROUP (sorted by total growth)")
-    print("=" * 80)
-    print(f"{'Group':<35} {'From':>6} {'To':>6} {'Start $':>10} {'End $':>10} {'Growth':>8} {'CAGR':>6}")
-    print("-" * 80)
+    w = 95
+    print("\n" + "=" * w)
+    print("INCOME GROWTH BY GROUP (sorted by total growth)")
+    print("=" * w)
+    print(f"{'Group':<48} {'From':>5} {'To':>5} {'Start $':>10} {'End $':>10} {'Growth':>8} {'CAGR':>6}")
+    print("-" * w)
     for g in growth:
         print(
-            f"{g['group']:<35} {g['earliest_year']:>6} {g['latest_year']:>6} "
+            f"{g['group']:<48} {g['earliest_year']:>5} {g['latest_year']:>5} "
             f"${g['earliest_income']:>8,} ${g['latest_income']:>8,} "
             f"{g['total_growth_pct']:>7.1f}% {g['cagr_pct']:>5.2f}%"
         )
-    print("-" * 80)
+    print("-" * w)
     print(f"CAGR = Compound Annual Growth Rate")
     print(f"All values in nominal dollars (not inflation-adjusted)")
 
