@@ -1,0 +1,59 @@
+{
+  "name": "todoist",
+  "version": "1.0.0",
+  "description": "Manage Todoist tasks, projects, and boards — plan your day, automate workflows, and move tasks between sections",
+  "author": "chart-skills",
+  "license": "MIT",
+  "compatibility": {
+    "claude-code": true,
+    "claude-ai": true
+  },
+  "tags": [
+    "todoist",
+    "tasks",
+    "todo",
+    "productivity",
+    "boards",
+    "kanban",
+    "automation",
+    "planning",
+    "api"
+  ],
+  "dependencies": {
+    "python": ">=3.9",
+    "required": [
+      "todoist-api-python"
+    ]
+  },
+  "files": {
+    "claude-code": "skill.md",
+    "claude-ai": "skill.claude.txt",
+    "script": "../../scripts/todoist_client.py"
+  },
+  "outputs": [
+    "json"
+  ],
+  "api": {
+    "base_url": "https://api.todoist.com",
+    "sdk": "todoist-api-python (official, pip install todoist-api-python)",
+    "sdk_docs": "https://doist.github.io/todoist-api-python/api/",
+    "auth": "Personal API token (TODOIST_API_TOKEN env var). Get at https://app.todoist.com/app/settings/integrations/developer",
+    "rate_limits": "Standard Todoist API limits apply"
+  },
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "2026-02-09",
+      "changes": [
+        "Initial release",
+        "Full CRUD for tasks, projects, sections, labels, comments",
+        "Board view: tasks grouped by section (kanban-style)",
+        "Day planning: today view (overdue + due today), upcoming view",
+        "Task filtering using Todoist filter syntax",
+        "auto_move_by_due_date automation: move tasks between sections based on due date rules",
+        "CLI interface with subcommands for all operations",
+        "Built on official todoist-api-python SDK"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+# Todoist — claude.ai Instructions
+
+You are helping the user manage their Todoist tasks, projects, and boards. Since you're in the claude.ai environment without direct API access, generate ready-to-run Python scripts and guide them through the process.
+
+## Setup (tell the user once)
+
+```bash
+pip install todoist-api-python
+export TODOIST_API_TOKEN="your_token_here"
+# Get your token at: https://app.todoist.com/app/settings/integrations/developer
+```
+
+## When the user asks about their tasks:
+
+1. **Clarify what they need**
+   - Which project/board? (ask if not specified)
+   - What operation? (view, create, move, automate, plan)
+
+2. **Generate a self-contained Python script** that:
+   - Reads `TODOIST_API_TOKEN` from environment
+   - Uses the official `todoist-api-python` SDK
+   - Prints clear, formatted output
+   - Handles the pagination pattern (SDK returns iterators of pages)
+
+3. **Use this SDK pattern** in all generated scripts:
+
+```python
+from todoist_api_python.api import TodoistAPI
+import os
+
+api = TodoistAPI(os.environ["TODOIST_API_TOKEN"])
+
+# Pagination: always iterate pages then items
+items = []
+for page in api.get_tasks():
+    items.extend(page)
+```
+
+## Common Operations
+
+### View board (tasks grouped by sections/columns)
+
+```python
+from todoist_api_python.api import TodoistAPI
+import os
+
+api = TodoistAPI(os.environ["TODOIST_API_TOKEN"])
+
+# Find the project
+for page in api.get_projects():
+    for p in page:
+        print(f"{p.id}: {p.name} ({p.view_style})")
+
+PROJECT_ID = "REPLACE_WITH_ID"
+
+sections = []
+for page in api.get_sections(project_id=PROJECT_ID):
+    sections.extend(page)
+
+tasks = []
+for page in api.get_tasks(project_id=PROJECT_ID):
+    tasks.extend(page)
+
+# Group by section
+by_section = {}
+for t in tasks:
+    by_section.setdefault(t.section_id, []).append(t)
+
+for s in sorted(sections, key=lambda x: x.order):
+    print(f"\n=== {s.name} ===")
+    for t in by_section.get(s.id, []):
+        due = t.due.string if t.due else "no date"
+        print(f"  [{t.id}] {t.content} (due: {due}, p{t.priority})")
+```
+
+### Today's tasks
+
+```python
+from todoist_api_python.api import TodoistAPI
+import os
+
+api = TodoistAPI(os.environ["TODOIST_API_TOKEN"])
+
+print("=== OVERDUE ===")
+for page in api.filter_tasks(query="overdue"):
+    for t in page:
+        print(f"  [{t.id}] {t.content} (due: {t.due.string if t.due else '?'})")
+
+print("\n=== DUE TODAY ===")
+for page in api.filter_tasks(query="today"):
+    for t in page:
+        print(f"  [{t.id}] {t.content} (p{t.priority})")
+```
+
+### Create a task
+
+```python
+from todoist_api_python.api import TodoistAPI
+import os
+
+api = TodoistAPI(os.environ["TODOIST_API_TOKEN"])
+
+task = api.add_task(
+    content="Task title here",
+    project_id="PROJECT_ID",       # optional
+    section_id="SECTION_ID",       # optional — board column
+    due_string="tomorrow",         # natural language
+    priority=3,                     # 1=normal, 4=urgent
+    labels=["work"],               # optional
+)
+print(f"Created: {task.content} (ID: {task.id})")
+```
+
+### Move a task to a different board column
+
+```python
+api.move_task(task_id="TASK_ID", section_id="TARGET_SECTION_ID")
+print("Moved!")
+```
+
+### Auto-move tasks by due date
+
+```python
+from todoist_api_python.api import TodoistAPI
+from datetime import date, timedelta
+import os
+
+api = TodoistAPI(os.environ["TODOIST_API_TOKEN"])
+PROJECT_ID = "REPLACE"
+
+sections = []
+for page in api.get_sections(project_id=PROJECT_ID):
+    sections.extend(page)
+section_by_name = {s.name.lower(): s.id for s in sections}
+
+tasks = []
+for page in api.get_tasks(project_id=PROJECT_ID):
+    tasks.extend(page)
+
+today = date.today()
+
+# Define your rules: condition -> target section name
+rules = {
+    "overdue": "Urgent",
+    "today": "In Progress",
+    "upcoming": "Up Next",    # within 3 days
+}
+
+for task in tasks:
+    if not task.due:
+        continue
+    due_date = date.fromisoformat(task.due.date.split("T")[0])
+
+    target = None
+    if due_date < today:
+        target = rules.get("overdue")
+    elif due_date == today:
+        target = rules.get("today")
+    elif due_date <= today + timedelta(days=3):
+        target = rules.get("upcoming")
+
+    if target:
+        target_id = section_by_name.get(target.lower())
+        if target_id and task.section_id != target_id:
+            api.move_task(task_id=task.id, section_id=target_id)
+            print(f"Moved '{task.content}' -> {target}")
+```
+
+## Filter Syntax Reference
+
+Tell users they can filter with these expressions:
+
+| Filter | Meaning |
+|--------|---------|
+| `today` | Due today |
+| `overdue` | Past due |
+| `7 days` | Due within 7 days |
+| `no date` | No due date |
+| `p1` / `p2` / `p3` | By priority |
+| `@label` | By label |
+| `#Project` | By project |
+| `search: keyword` | Full-text search |
+| `today & p1` | Combine with & (and) or \| (or) |
+
+## Key Gotchas
+
+- **Priority is inverted**: API `priority=4` = UI "P1" (most urgent)
+- **Pagination required**: Always iterate `for page in result: for item in page:`
+- **Sections = board columns**: To move between columns, use `move_task(section_id=...)`
+- **Due string is natural language**: "tomorrow", "every monday", "Jan 15" all work
+- **IDs are strings**: Always quote them
