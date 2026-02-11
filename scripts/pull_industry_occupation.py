@@ -214,6 +214,22 @@ def main():
     ]
     save_csv(occupation_records, "occupation_by_group.csv", fields=occupation_fields)
 
+    # Save combined CSV (all occupation + industry columns in one file)
+    occ_labels = [label for label in OCCUPATION_VARS.values() if label != "total_employed"]
+    ind_labels = [label for label in INDUSTRY_VARS.values() if label != "total_employed"]
+    combined_fields = ["group", "total_employed"] + \
+        [f"occ: {l}" for l in occ_labels] + \
+        [f"ind: {l}" for l in ind_labels]
+    combined_records = []
+    for occ_rec, ind_rec in zip(occupation_records, industry_records):
+        row = {"group": occ_rec["group"], "total_employed": occ_rec["total_employed"]}
+        for l in occ_labels:
+            row[f"occ: {l}"] = occ_rec.get(l)
+        for l in ind_labels:
+            row[f"ind: {l}"] = ind_rec.get(l)
+        combined_records.append(row)
+    save_csv(combined_records, "industry_occupation_by_group.csv", fields=combined_fields)
+
     # Save chart-ready JSON
     chart_data = build_chart_json(industry_records, occupation_records)
     save_json(chart_data, "industry_occupation.json")
