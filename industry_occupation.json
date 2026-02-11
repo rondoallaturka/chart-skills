@@ -1,0 +1,783 @@
+{
+  "year": 2024,
+  "industry": {
+    "categories": [
+      "Agriculture, forestry, fishing, hunting, and mining",
+      "Construction",
+      "Manufacturing",
+      "Wholesale trade",
+      "Retail trade",
+      "Transportation and warehousing, and utilities",
+      "Information",
+      "Finance, insurance, real estate, and leasing",
+      "Professional, scientific, management, and admin services",
+      "Educational services, health care, and social assistance",
+      "Arts, entertainment, recreation, accommodation, and food",
+      "Other services (except public administration)",
+      "Public administration"
+    ],
+    "groups": [
+      {
+        "group": "Total US population",
+        "total_employed": 167292666,
+        "values": [
+          1.5,
+          6.9,
+          9.6,
+          1.9,
+          10.6,
+          5.9,
+          1.8,
+          6.5,
+          12.9,
+          23.8,
+          8.9,
+          4.8,
+          4.7
+        ]
+      },
+      {
+        "group": "White alone, not Hispanic or Latino",
+        "total_employed": 95858520,
+        "values": [
+          1.6,
+          6.8,
+          10.0,
+          2.1,
+          10.6,
+          5.0,
+          1.9,
+          7.2,
+          13.1,
+          24.2,
+          7.9,
+          4.8,
+          4.8
+        ]
+      },
+      {
+        "group": "Black or African American alone, non-Hispanic",
+        "total_employed": 18668896,
+        "values": [
+          0.4,
+          2.9,
+          8.2,
+          1.3,
+          11.0,
+          9.7,
+          1.6,
+          5.8,
+          10.5,
+          29.0,
+          8.5,
+          4.1,
+          6.8
+        ]
+      },
+      {
+        "group": "Asian alone, not Hispanic or Latino",
+        "total_employed": 11424672,
+        "values": [
+          0.4,
+          1.9,
+          10.9,
+          1.8,
+          9.1,
+          4.8,
+          2.7,
+          7.7,
+          17.7,
+          25.6,
+          8.8,
+          5.2,
+          3.4
+        ]
+      },
+      {
+        "group": "AIAN alone, not Hispanic or Latino",
+        "total_employed": 711943,
+        "values": [
+          2.6,
+          6.9,
+          7.8,
+          1.3,
+          12.0,
+          5.8,
+          1.1,
+          3.7,
+          7.5,
+          25.0,
+          11.9,
+          4.4,
+          10.0
+        ]
+      },
+      {
+        "group": "NHPI alone, not Hispanic or Latino",
+        "total_employed": 278989,
+        "values": [
+          0.7,
+          6.8,
+          10.9,
+          2.3,
+          11.2,
+          9.9,
+          0.9,
+          4.3,
+          9.6,
+          22.2,
+          11.1,
+          4.5,
+          5.6
+        ]
+      },
+      {
+        "group": "Hispanic or Latino (any race)",
+        "total_employed": 32884864,
+        "values": [
+          2.3,
+          11.6,
+          9.1,
+          2.1,
+          10.9,
+          6.7,
+          1.3,
+          4.8,
+          11.8,
+          19.0,
+          11.7,
+          5.1,
+          3.6
+        ]
+      },
+      {
+        "group": "Mexican",
+        "total_employed": 18644876,
+        "values": [
+          3.3,
+          12.3,
+          9.8,
+          2.1,
+          11.3,
+          6.3,
+          1.1,
+          4.3,
+          10.8,
+          18.3,
+          11.9,
+          4.8,
+          3.6
+        ]
+      },
+      {
+        "group": "Puerto Rican",
+        "total_employed": 2742450,
+        "values": [
+          0.5,
+          5.6,
+          8.7,
+          2.1,
+          11.9,
+          7.4,
+          1.7,
+          6.3,
+          11.5,
+          24.4,
+          10.1,
+          4.7,
+          5.1
+        ]
+      },
+      {
+        "group": "Cuban",
+        "total_employed": 1547320,
+        "values": [
+          0.5,
+          9.2,
+          7.5,
+          2.3,
+          10.4,
+          10.3,
+          1.7,
+          6.0,
+          12.2,
+          22.5,
+          9.0,
+          4.9,
+          3.4
+        ]
+      },
+      {
+        "group": "Dominican",
+        "total_employed": 1185838,
+        "values": [
+          0.4,
+          5.7,
+          7.9,
+          2.2,
+          12.0,
+          10.3,
+          1.3,
+          5.6,
+          11.1,
+          24.1,
+          10.0,
+          5.6,
+          3.7
+        ]
+      },
+      {
+        "group": "Costa Rican",
+        "total_employed": 111971,
+        "values": [
+          0.7,
+          9.6,
+          7.7,
+          1.5,
+          12.0,
+          4.9,
+          1.6,
+          5.6,
+          15.2,
+          22.2,
+          10.8,
+          5.6,
+          2.6
+        ]
+      },
+      {
+        "group": "Guatemalan",
+        "total_employed": 1090253,
+        "values": [
+          2.3,
+          21.7,
+          9.4,
+          2.0,
+          8.5,
+          4.6,
+          1.0,
+          2.7,
+          14.9,
+          10.6,
+          14.8,
+          5.9,
+          1.5
+        ]
+      },
+      {
+        "group": "Honduran",
+        "total_employed": 687688,
+        "values": [
+          0.9,
+          28.0,
+          7.1,
+          1.8,
+          7.5,
+          5.3,
+          0.5,
+          3.0,
+          14.2,
+          11.0,
+          12.7,
+          6.2,
+          1.8
+        ]
+      },
+      {
+        "group": "Nicaraguan",
+        "total_employed": 331121,
+        "values": [
+          1.2,
+          16.2,
+          8.5,
+          2.5,
+          9.9,
+          6.5,
+          1.2,
+          5.3,
+          12.5,
+          15.6,
+          11.1,
+          6.6,
+          2.8
+        ]
+      },
+      {
+        "group": "Panamanian",
+        "total_employed": 126105,
+        "values": [
+          0.9,
+          4.8,
+          7.2,
+          1.1,
+          9.2,
+          6.9,
+          2.8,
+          7.8,
+          15.5,
+          23.3,
+          8.6,
+          4.1,
+          7.9
+        ]
+      },
+      {
+        "group": "Salvadoran",
+        "total_employed": 1438749,
+        "values": [
+          1.2,
+          15.2,
+          8.4,
+          2.2,
+          10.5,
+          6.3,
+          0.9,
+          3.8,
+          13.9,
+          15.8,
+          13.7,
+          5.9,
+          2.3
+        ]
+      },
+      {
+        "group": "Argentinean",
+        "total_employed": 191802,
+        "values": [
+          0.9,
+          6.5,
+          6.9,
+          1.8,
+          7.7,
+          5.0,
+          2.1,
+          7.9,
+          17.6,
+          21.5,
+          11.3,
+          7.1,
+          3.8
+        ]
+      },
+      {
+        "group": "Chilean",
+        "total_employed": 116917,
+        "values": [
+          0.3,
+          7.3,
+          8.7,
+          1.4,
+          7.3,
+          5.5,
+          3.0,
+          5.3,
+          17.1,
+          24.9,
+          10.3,
+          4.9,
+          4.0
+        ]
+      },
+      {
+        "group": "Colombian",
+        "total_employed": 977609,
+        "values": [
+          0.6,
+          8.0,
+          8.7,
+          2.2,
+          9.0,
+          7.2,
+          1.8,
+          6.7,
+          15.0,
+          20.2,
+          11.5,
+          6.1,
+          3.0
+        ]
+      },
+      {
+        "group": "Ecuadorian",
+        "total_employed": 545645,
+        "values": [
+          0.5,
+          15.3,
+          7.8,
+          2.2,
+          9.6,
+          6.6,
+          1.3,
+          5.1,
+          12.8,
+          17.3,
+          12.6,
+          6.1,
+          2.6
+        ]
+      },
+      {
+        "group": "Peruvian",
+        "total_employed": 456736,
+        "values": [
+          0.9,
+          6.5,
+          7.0,
+          2.4,
+          10.2,
+          6.2,
+          1.9,
+          6.8,
+          14.3,
+          22.2,
+          13.3,
+          4.6,
+          3.5
+        ]
+      },
+      {
+        "group": "Venezuelan",
+        "total_employed": 667080,
+        "values": [
+          0.8,
+          10.2,
+          9.3,
+          2.8,
+          10.0,
+          11.3,
+          1.4,
+          6.3,
+          14.4,
+          13.2,
+          13.9,
+          5.3,
+          1.2
+        ]
+      },
+      {
+        "group": "Spaniard",
+        "total_employed": 481576,
+        "values": [
+          1.3,
+          5.9,
+          7.9,
+          1.9,
+          9.6,
+          5.0,
+          2.3,
+          7.0,
+          14.9,
+          25.1,
+          9.2,
+          4.2,
+          5.6
+        ]
+      },
+      {
+        "group": "Brazilian",
+        "total_employed": 327240,
+        "values": [
+          0.7,
+          15.0,
+          6.6,
+          1.5,
+          7.4,
+          5.9,
+          1.4,
+          6.0,
+          20.7,
+          16.3,
+          8.5,
+          8.2,
+          1.7
+        ]
+      }
+    ]
+  },
+  "occupation": {
+    "categories": [
+      "Management, business, science, and arts",
+      "Service",
+      "Sales and office",
+      "Natural resources, construction, and maintenance",
+      "Production, transportation, and material moving"
+    ],
+    "groups": [
+      {
+        "group": "Total US population",
+        "total_employed": 167292666,
+        "values": [
+          43.5,
+          16.5,
+          19.1,
+          8.3,
+          12.6
+        ]
+      },
+      {
+        "group": "White alone, not Hispanic or Latino",
+        "total_employed": 95858520,
+        "values": [
+          48.4,
+          13.5,
+          19.6,
+          7.7,
+          10.7
+        ]
+      },
+      {
+        "group": "Black or African American alone, non-Hispanic",
+        "total_employed": 18668896,
+        "values": [
+          36.0,
+          21.8,
+          20.1,
+          4.4,
+          17.8
+        ]
+      },
+      {
+        "group": "Asian alone, not Hispanic or Latino",
+        "total_employed": 11424672,
+        "values": [
+          59.3,
+          14.8,
+          14.5,
+          2.3,
+          9.0
+        ]
+      },
+      {
+        "group": "AIAN alone, not Hispanic or Latino",
+        "total_employed": 711943,
+        "values": [
+          32.1,
+          22.2,
+          20.9,
+          10.7,
+          14.1
+        ]
+      },
+      {
+        "group": "NHPI alone, not Hispanic or Latino",
+        "total_employed": 278989,
+        "values": [
+          32.2,
+          20.5,
+          20.1,
+          9.5,
+          17.7
+        ]
+      },
+      {
+        "group": "Hispanic or Latino (any race)",
+        "total_employed": 32884864,
+        "values": [
+          28.1,
+          22.6,
+          18.5,
+          14.3,
+          16.4
+        ]
+      },
+      {
+        "group": "Mexican",
+        "total_employed": 18644876,
+        "values": [
+          25.7,
+          22.5,
+          19.0,
+          15.9,
+          17.0
+        ]
+      },
+      {
+        "group": "Puerto Rican",
+        "total_employed": 2742450,
+        "values": [
+          35.2,
+          20.5,
+          21.3,
+          7.5,
+          15.5
+        ]
+      },
+      {
+        "group": "Cuban",
+        "total_employed": 1547320,
+        "values": [
+          35.3,
+          18.4,
+          18.5,
+          10.5,
+          17.3
+        ]
+      },
+      {
+        "group": "Dominican",
+        "total_employed": 1185838,
+        "values": [
+          28.1,
+          25.2,
+          18.9,
+          8.0,
+          19.9
+        ]
+      },
+      {
+        "group": "Costa Rican",
+        "total_employed": 111971,
+        "values": [
+          40.5,
+          20.5,
+          18.9,
+          10.3,
+          9.9
+        ]
+      },
+      {
+        "group": "Guatemalan",
+        "total_employed": 1090253,
+        "values": [
+          15.9,
+          30.0,
+          12.7,
+          24.7,
+          16.7
+        ]
+      },
+      {
+        "group": "Honduran",
+        "total_employed": 687688,
+        "values": [
+          16.2,
+          27.0,
+          11.9,
+          29.0,
+          15.9
+        ]
+      },
+      {
+        "group": "Nicaraguan",
+        "total_employed": 331121,
+        "values": [
+          25.1,
+          24.6,
+          16.6,
+          17.1,
+          16.6
+        ]
+      },
+      {
+        "group": "Panamanian",
+        "total_employed": 126105,
+        "values": [
+          47.8,
+          15.8,
+          19.7,
+          5.3,
+          11.5
+        ]
+      },
+      {
+        "group": "Salvadoran",
+        "total_employed": 1438749,
+        "values": [
+          20.7,
+          28.7,
+          15.8,
+          17.4,
+          17.4
+        ]
+      },
+      {
+        "group": "Argentinean",
+        "total_employed": 191802,
+        "values": [
+          51.2,
+          15.7,
+          17.9,
+          7.5,
+          7.6
+        ]
+      },
+      {
+        "group": "Chilean",
+        "total_employed": 116917,
+        "values": [
+          50.2,
+          19.0,
+          13.3,
+          8.1,
+          9.3
+        ]
+      },
+      {
+        "group": "Colombian",
+        "total_employed": 977609,
+        "values": [
+          38.7,
+          21.8,
+          18.6,
+          7.9,
+          13.0
+        ]
+      },
+      {
+        "group": "Ecuadorian",
+        "total_employed": 545645,
+        "values": [
+          28.2,
+          24.5,
+          16.5,
+          15.7,
+          15.1
+        ]
+      },
+      {
+        "group": "Peruvian",
+        "total_employed": 456736,
+        "values": [
+          36.7,
+          23.8,
+          18.1,
+          7.6,
+          13.7
+        ]
+      },
+      {
+        "group": "Venezuelan",
+        "total_employed": 667080,
+        "values": [
+          30.6,
+          21.6,
+          17.1,
+          12.2,
+          18.5
+        ]
+      },
+      {
+        "group": "Spaniard",
+        "total_employed": 481576,
+        "values": [
+          50.5,
+          15.4,
+          18.2,
+          6.8,
+          9.1
+        ]
+      },
+      {
+        "group": "Brazilian",
+        "total_employed": 327240,
+        "values": [
+          37.0,
+          25.5,
+          14.9,
+          13.6,
+          9.0
+        ]
+      }
+    ]
+  }
+}
