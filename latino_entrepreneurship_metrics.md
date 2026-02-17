@@ -288,6 +288,90 @@ Rough estimate using economy-wide average (~50% VA/revenue ratio):
 This is conservative — construction and services (where Hispanic firms
 concentrate) tend to have higher value-added ratios than manufacturing.
 
+### GDP by Hispanic Origin Group (CLU/CERF Methodology Applied)
+
+The [2025 US Latino GDP Report](https://blogs.callutheran.edu/cerf/files/2025/09/2025_USLatinoGDP_FINALrev.pdf)
+by Cal Lutheran / UCLA estimates the total US Hispanic/Latino GDP at
+**$4.06 trillion** in 2023 (14.6% of US GDP). Their methodology:
+
+1. Start with BEA GDP decomposed across ~70 industry sectors
+2. Compute Latino share of each sector's economic activity using ACS/CPS
+   employment, income, and expenditure data
+3. Sum: Latino GDP = Σ (Latino share of sector × Sector GDP)
+
+We replicate this approach at the **origin-group level** by:
+- Using BEA 2023 GDP by Industry (Value Added, nominal, 13 major sectors)
+- Using ACS 2023 S0201 industry employment distribution by origin group
+- Computing each group's labor-productivity-weighted GDP contribution
+- Calibrating to the CLU aggregate of $4.06T
+
+**Estimated GDP by Hispanic Origin Group (2023):**
+
+| Origin Group | Est. GDP | % of Latino GDP | Workers | GDP/Worker |
+|-------------|---------|----------------|---------|-----------|
+| **Mexican** | **$2.29T** | **56.5%** | 18,024,005 | $127,196 |
+| **Central American** | **$0.44T** | **10.8%** | 3,582,585 | $122,698 |
+| **South American** | **$0.39T** | **9.5%** | 2,820,978 | $136,894 |
+| **Puerto Rican** | **$0.36T** | **8.9%** | 2,616,196 | $137,379 |
+| **Cuban** | **$0.18T** | **4.6%** | 1,320,588 | $140,055 |
+| **Dominican** | **$0.15T** | **3.8%** | 1,148,039 | $132,993 |
+| Other Hispanic | $0.24T | 6.0% | — | — |
+| **Total Hispanic/Latino** | **$4.06T** | **100%** | 31,302,826 | $129,701 |
+
+**Detail within Central American:**
+
+| Subgroup | Est. GDP | % of Latino | Workers | GDP/Worker |
+|----------|---------|-------------|---------|-----------|
+| Salvadoran | $0.17T | 4.2% | 1,376,905 | $124,509 |
+| Guatemalan | $0.12T | 3.0% | 1,023,643 | $117,651 |
+
+**Detail within South American:**
+
+| Subgroup | Est. GDP | % of Latino | Workers | GDP/Worker |
+|----------|---------|-------------|---------|-----------|
+| Colombian | $0.13T | 3.1% | 905,367 | $140,075 |
+
+**Country equivalents:** The Mexican-American GDP alone ($2.29T) would
+rank as the world's 10th largest economy — larger than Brazil, Canada,
+or Russia. The Central American-American GDP ($0.44T) exceeds
+the Philippines. The Puerto Rican-American GDP ($0.36T) exceeds Israel.
+
+**GDP per worker varies by industry mix:**
+
+| Group | GDP/Worker | Ratio to US Avg | Why |
+|-------|-----------|----------------|-----|
+| Cuban | $140,055 | 0.83x | More finance, professional svcs, transport |
+| Colombian | $140,075 | 0.83x | More professional services, finance |
+| Puerto Rican | $137,379 | 0.81x | More education/health, public admin |
+| South American | $136,894 | 0.81x | Balanced mix; more professional svcs |
+| Dominican | $132,993 | 0.79x | More transport, education/health |
+| Mexican | $127,196 | 0.75x | More construction, agriculture, food svcs |
+| Salvadoran | $124,509 | 0.74x | Heavy construction, food services |
+| Central American | $122,698 | 0.73x | 18.6% in construction (highest of any group) |
+| Guatemalan | $117,651 | 0.70x | 20.4% in construction, low finance/info |
+
+Groups concentrated in higher-productivity sectors (finance, information,
+professional services) generate more GDP per worker. Groups concentrated
+in construction, agriculture, and food services have lower GDP per worker
+despite strong labor force participation. This is an industry-mix effect,
+not a worker quality effect.
+
+**Key methodological caveats:**
+- This uses labor-share allocation only; the CLU report also incorporates
+  expenditure-side data (consumption, housing, investment)
+- Within-industry wage differentials mean pure employment-share
+  overestimates GDP; we calibrate to the CLU total to account for this
+- Sub-group estimates assume the calibration factor (0.84) is uniform
+  across origin groups; in reality, within-industry wage gaps may vary
+- Origin categories overlap slightly (some individuals report multiple
+  origins), so subgroups sum to slightly more than the total
+
+**Data sources:**
+- BEA GDP by Industry, Table TVA105-A (Value Added, nominal, 2023)
+- ACS 2023 1-Year, Table S0201 (Selected Population Profile), variables
+  S0201_194E through S0201_207E, by POPGROUP
+- CLU/CERF 2025 US Latino GDP Report for calibration total
+
 ---
 
 ## 2. Nonemployer Firms (Sole Proprietorships)
