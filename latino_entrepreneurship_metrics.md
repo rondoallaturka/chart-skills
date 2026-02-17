@@ -54,6 +54,99 @@ Key variables: `FIRMPDEMP` (firms), `RCPPDEMP` (revenue, $1000s), `EMP`
 Hispanic employer firms are growing significantly faster than the overall
 business population.
 
+### Full Time Series (2018–2023, ABS)
+
+| Year | Hispanic Firms | Hispanic Employees | All Firms | All Employees | Hisp % of Classified Emp |
+|------|---------------|-------------------|-----------|---------------|------------------------|
+| 2018 | 331,625 | 2,972,140 | 5,722,142 | 128,196,406 | 4.7% |
+| 2019 | 346,836 | 2,930,548 | 5,771,292 | 128,898,226 | 4.6% |
+| 2020 | 375,256 | 2,939,740 | 5,775,258 | 129,363,644 | 4.6% |
+| 2021 | 406,086 | 2,985,954 | 5,893,425 | 123,935,338 | 4.8% |
+| 2022 | 465,202 | 3,550,203 | 5,876,787 | 136,514,851 | 5.3% |
+| 2023 | 495,822 | 3,822,895 | 5,934,950 | 132,849,544 | 5.8% |
+
+Note: "Classified" employment = Hispanic + Non-Hispanic + Equally
+Hispanic/Non-Hispanic. About half of all employer-firm employees work at
+firms where the owner's ethnicity could be classified. The other half are
+at publicly held companies, large corporations, or firms that didn't
+report owner demographics.
+
+### Hispanic Share of Net New Job Creation
+
+This is the headline metric: **what percentage of net new employer-firm
+jobs were created by Hispanic-owned businesses?**
+
+| Time Span | Hispanic Net New Jobs | All Net New Jobs | Hispanic Share (All) | Hispanic Share (Classified) |
+|-----------|---------------------|-----------------|---------------------|---------------------------|
+| **2018→2023 (5yr)** | **+850,755** | +4,653,138 | **18.3%** | **32.2%** |
+| 2019→2023 (pre-COVID base) | +892,347 | +3,951,318 | **22.6%** | **47.8%** |
+| 2020→2023 (post-COVID) | +883,155 | +3,485,900 | **25.3%** | **42.5%** |
+| 2021→2023 (recovery) | +836,941 | +8,914,206 | 9.4% | 18.9% |
+
+Key findings:
+- Over **5 years (2018→2023)**, Hispanic-owned firms created **850,755 net
+  new jobs**, representing **18.3% of all net new employer-firm jobs** in
+  the US — roughly 1 in 5.
+- Among firms where ownership ethnicity is classified, the Hispanic share
+  is even higher: **32.2%** of net new classified jobs.
+- Hispanic-owned firms added **+164,197 net new firms** (2018→2023), which
+  is **77.2% of all net new firms** in the country. The overall firm count
+  grew by only 212,808 — Hispanic firms drove more than three-quarters of
+  that growth.
+- In 2022→2023, while total employer-firm employment *declined* by 3.67M,
+  Hispanic-owned firms **still added +272,692 jobs** — counter-cyclical
+  growth.
+
+### Net New Firms: Hispanic-Owned Businesses Are the Growth Engine
+
+| Time Span | Hispanic Net New Firms | All Net New Firms | Hispanic Share |
+|-----------|----------------------|------------------|---------------|
+| 2018→2023 | +164,197 (+49.5%) | +212,808 (+3.7%) | **77.2%** |
+| 2019→2023 | +148,986 (+43.0%) | +163,658 (+2.8%) | **91.0%** |
+
+From the pre-COVID baseline (2019), Hispanic-owned businesses account for
+**91% of all net new employer firms** in the United States. Total firm
+count barely grew (+2.8%), but Hispanic firms surged (+43%).
+
+### Net New Payroll
+
+| Time Span | Hispanic Net Payroll | All Net Payroll | Hispanic Share |
+|-----------|---------------------|----------------|---------------|
+| 2018→2023 | +$59.1B (+58.5%) | +$1,945.9B | 3.0% |
+| 2019→2023 | +$51.9B (+47.9%) | +$1,655.5B | 3.1% |
+
+Hispanic payroll share of net new payroll is lower (3%) than job share
+(18%) because Hispanic firms tend to be smaller and in lower-wage sectors.
+But Hispanic firm payroll grew **58.5%** vs. overall payroll growth of
+28%.
+
+### Year-over-Year Employment Changes
+
+| Period | Hispanic Jobs | All Jobs | Hispanic % of Total | Hispanic Firms | All Firms |
+|--------|-------------|----------|--------------------|-|-|
+| 2018→2019 | -41,592 | +701,820 | -5.9% | +15,211 | +49,150 |
+| 2019→2020 | +9,192 | +465,418 | 2.0% | +28,420 | +3,966 |
+| 2020→2021 | +46,214 | -5,428,306 | counter-cyclical | +30,830 | +118,167 |
+| 2021→2022 | +564,249 | +12,579,513 | 4.5% | +59,116 | -16,638 |
+| 2022→2023 | +272,692 | -3,665,307 | counter-cyclical | +30,620 | +58,163 |
+
+Hispanic-owned firm employment has been **counter-cyclical** — growing
+even in years when overall employer-firm employment declined (2020→2021
+and 2022→2023).
+
+### 2022 Origin-Group Breakdown (only available year)
+
+| Origin | Firms | Employees | Emp Share | Revenue | Avg Emp/Firm |
+|--------|-------|-----------|-----------|---------|-------------|
+| **Mexican/Chicano** | 230,511 | 1,963,327 | 56.9% | $341.5B | 8.5 |
+| **Other Hispanic** | 157,405 | 965,046 | 28.0% | $185.8B | 6.1 |
+| **Cuban** | 41,079 | 351,849 | 10.2% | $77.6B | 8.6 |
+| **Puerto Rican** | 25,946 | 167,882 | 4.9% | $29.6B | 6.5 |
+
+Mexican/Chicano-owned firms are the largest group (57% of Hispanic-owned
+firm employment), but Cuban-owned firms have the highest average employees
+per firm (8.6) and highest revenue per firm ($1.89M vs. $1.48M for Mexican).
+
 ### Top Industries by Firm Count (2023, Hispanic employer firms)
 
 | Rank | Sector | Firms | Revenue | Employees |
