@@ -147,6 +147,107 @@ Mexican/Chicano-owned firms are the largest group (57% of Hispanic-owned
 firm employment), but Cuban-owned firms have the highest average employees
 per firm (8.6) and highest revenue per firm ($1.89M vs. $1.48M for Mexican).
 
+---
+
+## 1b. Net New Jobs & Firms by ALL Demographic Groups (2018 → 2023)
+
+The ABS tracks four owner dimensions: **race**, **ethnicity**, **sex**,
+and **veteran status**. This section shows which groups are creating jobs
+and firms, and which are contracting.
+
+**Total net new employer-firm jobs: +4,653,138**
+**Total net new employer firms: +212,808**
+
+### By Owner Race
+
+| Group | Net New Jobs | % of Total | Job Growth | Net New Firms | % of Total | Firm Growth |
+|-------|-------------|-----------|------------|--------------|-----------|-------------|
+| **White** | +1,373,285 | 29.5% | +2.4% | +12,092 | 5.7% | +0.3% |
+| **Black/African American** | +675,908 | 14.5% | **+56.9%** | +76,334 | 35.9% | **+61.3%** |
+| **Asian** | +471,712 | 10.1% | +9.3% | +107,081 | 50.3% | +18.5% |
+| **Amer. Indian/AK Native** | +163,249 | 3.5% | **+81.5%** | +30,685 | 14.4% | **+125.6%** |
+| **Native HI/Pacific Isl.** | +8,082 | 0.2% | +14.8% | +2,760 | 1.3% | +41.5% |
+| *Minority (composite)* | *+2,033,635* | *43.7%* | *+21.6%* | *+352,452* | *+165.6%* | *+33.6%* |
+| *Nonminority* | *+480,114* | *10.3%* | *+0.9%* | *-161,844* | *-76.1%* | *-3.7%* |
+
+Key patterns:
+- **Black-owned firms** had the fastest job growth rate (56.9%) and
+  added 675,908 jobs — 14.5% of all net new jobs.
+- **AIAN-owned firms** had the fastest firm growth (125.6%, from
+  24,433 to 55,118 firms) and fastest job growth (81.5%).
+- **Asian-owned firms** added the most net new firms of any single
+  race group (+107,081), accounting for 50.3% of all net new firms.
+- **Nonminority-owned firms** added jobs (+480K) but **lost 161,844
+  firms** — a net contraction of 3.7% in firm count. The existing
+  nonminority firms got bigger, but fewer new ones formed.
+- **Minority-owned firms** (composite) created **43.7% of all net new
+  jobs** and **165.6% of net new firms** (the nonminority firm count
+  shrank, so minorities produced more than 100% of net growth).
+
+### By Owner Ethnicity
+
+| Group | Net New Jobs | % of Total | Job Growth | Net New Firms | % of Total | Firm Growth |
+|-------|-------------|-----------|------------|--------------|-----------|-------------|
+| **Hispanic/Latino** | +850,755 | 18.3% | +28.6% | +164,197 | 77.2% | +49.5% |
+| Eq. Hispanic/NonHispanic | +20,684 | 0.4% | +4.3% | +7,745 | 3.6% | +15.7% |
+| Non-Hispanic | +1,767,713 | 38.0% | +2.9% | +32,005 | 15.0% | +0.6% |
+
+Hispanic firms grew employment 28.6% vs. just 2.9% for Non-Hispanic.
+Hispanic firms account for 77% of all net new employer firms.
+
+### By Owner Sex
+
+| Group | Net New Jobs | % of Total | Job Growth | Net New Firms | % of Total | Firm Growth |
+|-------|-------------|-----------|------------|--------------|-----------|-------------|
+| **Female-owned** | +1,537,356 | 33.0% | +15.1% | +215,580 | 101.3% | +18.9% |
+| **Male-owned** | +2,167,149 | 46.6% | +4.8% | +141,734 | 66.6% | +4.1% |
+| Equally male/female | -1,065,352 | -22.9% | -13.4% | -153,369 | -72.1% | -17.8% |
+
+Female-owned firms created **33% of net new jobs** and **101% of net
+new firms** (the "equally owned" category shrank). Female-owned firm
+count grew 18.9% vs. 4.1% for male-owned.
+
+### By Veteran Status
+
+| Group | Net New Jobs | % of Total | Job Growth | Net New Firms | % of Total | Firm Growth |
+|-------|-------------|-----------|------------|--------------|-----------|-------------|
+| Veteran-owned | **-492,618** | -10.6% | **-12.8%** | **-76,604** | -36.0% | **-22.7%** |
+| Eq. Veteran/NonVet | -295,302 | -6.3% | -20.9% | -48,021 | -22.6% | -32.9% |
+| **Nonveteran-owned** | +3,427,073 | 73.7% | +5.9% | +328,567 | 154.4% | +6.6% |
+
+Veteran-owned businesses are in **significant decline**: -22.7% of firms
+and -12.8% of jobs lost since 2018. This reflects the aging veteran
+population (Vietnam-era owners retiring/closing) outpacing new veteran
+business formation.
+
+### Summary: Who's Driving US Business Growth?
+
+The groups with the strongest net positive contribution to US employer
+firm growth (2018→2023), ranked by net new firms created:
+
+| Rank | Group | Net New Firms | Firm Growth Rate |
+|------|-------|--------------|-----------------|
+| 1 | **Female-owned** | +215,580 | +18.9% |
+| 2 | **Hispanic-owned** | +164,197 | +49.5% |
+| 3 | **Male-owned** | +141,734 | +4.1% |
+| 4 | **Asian-owned** | +107,081 | +18.5% |
+| 5 | **Black-owned** | +76,334 | +61.3% |
+| 6 | **AIAN-owned** | +30,685 | +125.6% |
+
+The groups contracting:
+
+| Group | Net New Firms | Firm Growth Rate |
+|-------|--------------|-----------------|
+| Nonminority-owned | -161,844 | -3.7% |
+| Equally male/female | -153,369 | -17.8% |
+| Veteran-owned | -76,604 | -22.7% |
+| Eq. Veteran/NonVet | -48,021 | -32.9% |
+
+Note: Race, ethnicity, and sex are **separate dimensions** in the ABS.
+A firm can be both Hispanic *and* White-owned, or both Female-owned
+*and* Asian-owned. The groups within each dimension sum to classifiable
+totals but groups across dimensions overlap.
+
 ### Top Industries by Firm Count (2023, Hispanic employer firms)
 
 | Rank | Sector | Firms | Revenue | Employees |
