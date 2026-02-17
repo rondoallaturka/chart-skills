@@ -46,6 +46,7 @@ The Census API has multiple datasets, each with sub-endpoints. Match the user's 
 | Official population counts | Decennial Census | `/data/2020/dec/pl` |
 | Business/employer statistics | County Business Patterns | `/data/{year}/cbp` |
 | Annual population estimates | Population Estimates | `/data/{year}/pep/population` |
+| Business ownership by demographics | Annual Business Survey (Company Summary) | `/data/{year}/abscs` |
 
 **Base URL**: `https://api.census.gov`
 
@@ -53,6 +54,7 @@ The Census API has multiple datasets, each with sub-endpoints. Match the user's 
 - ACS 5-Year: Use 2023 (latest). Covers all geographies including small areas.
 - ACS 1-Year: Use 2024 or 2023. Only covers areas with population 65,000+.
 - Decennial: Use 2020. Next will be 2030.
+- ABS: Use 2023 (latest). Covers US, state, metro, county. Filter by `ETH_GROUP` (020=Hispanic), `RACE_GROUP`, `SEX`, `VET_GROUP`.
 - CBP: Use 2022 (latest).
 - PEP: Variable names and endpoints shift frequently. Probe first.
 
@@ -116,8 +118,21 @@ These are known-good for 2023. Always verify with the variables endpoint.
 | Variable | Description |
 |----------|-------------|
 | `S0201_214E` | Median household income |
+| `S0201_235E` | Per capita income |
 | `S0201_099E` | % bachelor's degree or higher |
+| `S0201_208E` | Civilian employed population 16+ |
+| `S0201_211E` | Self-employed workers (% not incorporated) |
 | Requires `POPGROUP` parameter | See Step 4 |
+
+**Annual Business Survey Company Summary** (`/abscs`):
+| Variable | Description |
+|----------|-------------|
+| `FIRMPDEMP` | Number of employer firms |
+| `RCPPDEMP` | Revenue/receipts ($1,000s) |
+| `EMP` | Number of employees |
+| `PAYANN` | Annual payroll ($1,000s) |
+| `ETH_GROUP` | Ethnicity filter: `020`=Hispanic, `029`=Non-Hispanic, `001`=Total |
+| `NAICS2022` | Industry sector (`00`=all sectors) |
 
 ### Step 3: Construct the geography
 
