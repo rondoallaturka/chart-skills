@@ -49,6 +49,7 @@ ENDPOINTS = {
     "dec_pl":       "/dec/pl",
     "cbp":          "/cbp",
     "pep":          "/pep/population",
+    "abscs":        "/abscs",
 }
 
 BASE = "https://api.census.gov/data"
