@@ -1,0 +1,1627 @@
+[
+  {
+    "group": "AIAN alone, not Hispanic or Latino",
+    "data": [
+      {
+        "year": 2008,
+        "income": 37398
+      },
+      {
+        "year": 2009,
+        "income": 34776
+      },
+      {
+        "year": 2011,
+        "income": 34899
+      },
+      {
+        "year": 2012,
+        "income": 35190
+      },
+      {
+        "year": 2013,
+        "income": 36067
+      },
+      {
+        "year": 2014,
+        "income": 36654
+      },
+      {
+        "year": 2015,
+        "income": 38248
+      },
+      {
+        "year": 2016,
+        "income": 38473
+      },
+      {
+        "year": 2017,
+        "income": 40936
+      },
+      {
+        "year": 2018,
+        "income": 42535
+      },
+      {
+        "year": 2019,
+        "income": 43475
+      },
+      {
+        "year": 2021,
+        "income": 46221
+      },
+      {
+        "year": 2022,
+        "income": 50104
+      },
+      {
+        "year": 2023,
+        "income": 51238
+      },
+      {
+        "year": 2024,
+        "income": 54485
+      }
+    ]
+  },
+  {
+    "group": "Argentinean",
+    "data": [
+      {
+        "year": 2008,
+        "income": 54163
+      },
+      {
+        "year": 2009,
+        "income": 56191
+      },
+      {
+        "year": 2011,
+        "income": 56583
+      },
+      {
+        "year": 2012,
+        "income": 56592
+      },
+      {
+        "year": 2013,
+        "income": 61016
+      },
+      {
+        "year": 2014,
+        "income": 57648
+      },
+      {
+        "year": 2015,
+        "income": 61537
+      },
+      {
+        "year": 2016,
+        "income": 68882
+      },
+      {
+        "year": 2017,
+        "income": 71834
+      },
+      {
+        "year": 2018,
+        "income": 74857
+      },
+      {
+        "year": 2019,
+        "income": 75810
+      },
+      {
+        "year": 2021,
+        "income": 78650
+      },
+      {
+        "year": 2022,
+        "income": 93798
+      },
+      {
+        "year": 2023,
+        "income": 93204
+      },
+      {
+        "year": 2024,
+        "income": 101811
+      }
+    ]
+  },
+  {
+    "group": "Asian alone, not Hispanic or Latino",
+    "data": [
+      {
+        "year": 2008,
+        "income": 70219
+      },
+      {
+        "year": 2009,
+        "income": 68930
+      },
+      {
+        "year": 2011,
+        "income": 68108
+      },
+      {
+        "year": 2012,
+        "income": 70766
+      },
+      {
+        "year": 2013,
+        "income": 72627
+      },
+      {
+        "year": 2014,
+        "income": 74275
+      },
+      {
+        "year": 2015,
+        "income": 77579
+      },
+      {
+        "year": 2016,
+        "income": 80901
+      },
+      {
+        "year": 2017,
+        "income": 83762
+      },
+      {
+        "year": 2018,
+        "income": 87587
+      },
+      {
+        "year": 2019,
+        "income": 94048
+      },
+      {
+        "year": 2021,
+        "income": 100843
+      },
+      {
+        "year": 2022,
+        "income": 107367
+      },
+      {
+        "year": 2023,
+        "income": 112280
+      },
+      {
+        "year": 2024,
+        "income": 117894
+      }
+    ]
+  },
+  {
+    "group": "Black or African American alone, non-Hispanic",
+    "data": [
+      {
+        "year": 2008,
+        "income": 35435
+      },
+      {
+        "year": 2009,
+        "income": 33449
+      },
+      {
+        "year": 2011,
+        "income": 33232
+      },
+      {
+        "year": 2012,
+        "income": 33762
+      },
+      {
+        "year": 2013,
+        "income": 34789
+      },
+      {
+        "year": 2014,
+        "income": 35434
+      },
+      {
+        "year": 2015,
+        "income": 36515
+      },
+      {
+        "year": 2016,
+        "income": 38506
+      },
+      {
+        "year": 2017,
+        "income": 40165
+      },
+      {
+        "year": 2018,
+        "income": 41495
+      },
+      {
+        "year": 2019,
+        "income": 43771
+      },
+      {
+        "year": 2021,
+        "income": 46679
+      },
+      {
+        "year": 2022,
+        "income": 51286
+      },
+      {
+        "year": 2023,
+        "income": 53789
+      },
+      {
+        "year": 2024,
+        "income": 56669
+      }
+    ]
+  },
+  {
+    "group": "Brazilian",
+    "data": [
+      {
+        "year": 2008,
+        "income": 50900
+      },
+      {
+        "year": 2009,
+        "income": 47957
+      },
+      {
+        "year": 2011,
+        "income": 47147
+      },
+      {
+        "year": 2012,
+        "income": 53560
+      },
+      {
+        "year": 2013,
+        "income": 51377
+      },
+      {
+        "year": 2014,
+        "income": 54675
+      },
+      {
+        "year": 2015,
+        "income": 56200
+      },
+      {
+        "year": 2016,
+        "income": 56151
+      },
+      {
+        "year": 2017,
+        "income": 60118
+      },
+      {
+        "year": 2018,
+        "income": 61914
+      },
+      {
+        "year": 2019,
+        "income": 63982
+      },
+      {
+        "year": 2021,
+        "income": 70904
+      },
+      {
+        "year": 2022,
+        "income": 73285
+      },
+      {
+        "year": 2023,
+        "income": 74699
+      },
+      {
+        "year": 2024,
+        "income": 83089
+      }
+    ]
+  },
+  {
+    "group": "Chilean",
+    "data": [
+      {
+        "year": 2008,
+        "income": 60463
+      },
+      {
+        "year": 2009,
+        "income": 57879
+      },
+      {
+        "year": 2011,
+        "income": 51084
+      },
+      {
+        "year": 2012,
+        "income": 52104
+      },
+      {
+        "year": 2013,
+        "income": 58190
+      },
+      {
+        "year": 2014,
+        "income": 57782
+      },
+      {
+        "year": 2015,
+        "income": 61400
+      },
+      {
+        "year": 2016,
+        "income": 69436
+      },
+      {
+        "year": 2017,
+        "income": 61137
+      },
+      {
+        "year": 2018,
+        "income": 69725
+      },
+      {
+        "year": 2019,
+        "income": 74585
+      },
+      {
+        "year": 2021,
+        "income": 69475
+      },
+      {
+        "year": 2022,
+        "income": 84719
+      },
+      {
+        "year": 2023,
+        "income": 80768
+      },
+      {
+        "year": 2024,
+        "income": 87061
+      }
+    ]
+  },
+  {
+    "group": "Colombian",
+    "data": [
+      {
+        "year": 2008,
+        "income": 49384
+      },
+      {
+        "year": 2009,
+        "income": 50048
+      },
+      {
+        "year": 2011,
+        "income": 48169
+      },
+      {
+        "year": 2012,
+        "income": 48812
+      },
+      {
+        "year": 2013,
+        "income": 52591
+      },
+      {
+        "year": 2014,
+        "income": 52231
+      },
+      {
+        "year": 2015,
+        "income": 55082
+      },
+      {
+        "year": 2016,
+        "income": 55586
+      },
+      {
+        "year": 2017,
+        "income": 58847
+      },
+      {
+        "year": 2018,
+        "income": 61047
+      },
+      {
+        "year": 2019,
+        "income": 66875
+      },
+      {
+        "year": 2021,
+        "income": 70170
+      },
+      {
+        "year": 2022,
+        "income": 73556
+      },
+      {
+        "year": 2023,
+        "income": 80308
+      },
+      {
+        "year": 2024,
+        "income": 79371
+      }
+    ]
+  },
+  {
+    "group": "Costa Rican",
+    "data": [
+      {
+        "year": 2008,
+        "income": 48307
+      },
+      {
+        "year": 2009,
+        "income": 51331
+      },
+      {
+        "year": 2011,
+        "income": 54045
+      },
+      {
+        "year": 2012,
+        "income": 47841
+      },
+      {
+        "year": 2013,
+        "income": 55186
+      },
+      {
+        "year": 2014,
+        "income": 52175
+      },
+      {
+        "year": 2015,
+        "income": 50215
+      },
+      {
+        "year": 2016,
+        "income": 55141
+      },
+      {
+        "year": 2017,
+        "income": 62769
+      },
+      {
+        "year": 2018,
+        "income": 65912
+      },
+      {
+        "year": 2019,
+        "income": 63605
+      },
+      {
+        "year": 2021,
+        "income": 80074
+      },
+      {
+        "year": 2022,
+        "income": 81088
+      },
+      {
+        "year": 2023,
+        "income": 79660
+      },
+      {
+        "year": 2024,
+        "income": 82059
+      }
+    ]
+  },
+  {
+    "group": "Cuban",
+    "data": [
+      {
+        "year": 2008,
+        "income": 42724
+      },
+      {
+        "year": 2009,
+        "income": 41547
+      },
+      {
+        "year": 2011,
+        "income": 38808
+      },
+      {
+        "year": 2012,
+        "income": 40582
+      },
+      {
+        "year": 2013,
+        "income": 41439
+      },
+      {
+        "year": 2014,
+        "income": 42701
+      },
+      {
+        "year": 2015,
+        "income": 44588
+      },
+      {
+        "year": 2016,
+        "income": 46432
+      },
+      {
+        "year": 2017,
+        "income": 50142
+      },
+      {
+        "year": 2018,
+        "income": 52190
+      },
+      {
+        "year": 2019,
+        "income": 56005
+      },
+      {
+        "year": 2021,
+        "income": 60743
+      },
+      {
+        "year": 2022,
+        "income": 66241
+      },
+      {
+        "year": 2023,
+        "income": 69191
+      },
+      {
+        "year": 2024,
+        "income": 71085
+      }
+    ]
+  },
+  {
+    "group": "Dominican",
+    "data": [
+      {
+        "year": 2008,
+        "income": 34604
+      },
+      {
+        "year": 2009,
+        "income": 34194
+      },
+      {
+        "year": 2011,
+        "income": 32815
+      },
+      {
+        "year": 2012,
+        "income": 32754
+      },
+      {
+        "year": 2013,
+        "income": 34790
+      },
+      {
+        "year": 2014,
+        "income": 36869
+      },
+      {
+        "year": 2015,
+        "income": 37000
+      },
+      {
+        "year": 2016,
+        "income": 40377
+      },
+      {
+        "year": 2017,
+        "income": 43851
+      },
+      {
+        "year": 2018,
+        "income": 44502
+      },
+      {
+        "year": 2019,
+        "income": 47170
+      },
+      {
+        "year": 2021,
+        "income": 51889
+      },
+      {
+        "year": 2022,
+        "income": 56758
+      },
+      {
+        "year": 2023,
+        "income": 58201
+      },
+      {
+        "year": 2024,
+        "income": 61221
+      }
+    ]
+  },
+  {
+    "group": "Ecuadorian",
+    "data": [
+      {
+        "year": 2008,
+        "income": 50665
+      },
+      {
+        "year": 2009,
+        "income": 50592
+      },
+      {
+        "year": 2011,
+        "income": 49938
+      },
+      {
+        "year": 2012,
+        "income": 50059
+      },
+      {
+        "year": 2013,
+        "income": 49203
+      },
+      {
+        "year": 2014,
+        "income": 49831
+      },
+      {
+        "year": 2015,
+        "income": 51120
+      },
+      {
+        "year": 2016,
+        "income": 53544
+      },
+      {
+        "year": 2017,
+        "income": 60855
+      },
+      {
+        "year": 2018,
+        "income": 60465
+      },
+      {
+        "year": 2019,
+        "income": 66971
+      },
+      {
+        "year": 2021,
+        "income": 66716
+      },
+      {
+        "year": 2022,
+        "income": 72163
+      },
+      {
+        "year": 2023,
+        "income": 79529
+      },
+      {
+        "year": 2024,
+        "income": 82828
+      }
+    ]
+  },
+  {
+    "group": "Guatemalan",
+    "data": [
+      {
+        "year": 2008,
+        "income": 41225
+      },
+      {
+        "year": 2009,
+        "income": 38302
+      },
+      {
+        "year": 2011,
+        "income": 37484
+      },
+      {
+        "year": 2012,
+        "income": 38496
+      },
+      {
+        "year": 2013,
+        "income": 37840
+      },
+      {
+        "year": 2014,
+        "income": 39282
+      },
+      {
+        "year": 2015,
+        "income": 41033
+      },
+      {
+        "year": 2016,
+        "income": 42142
+      },
+      {
+        "year": 2017,
+        "income": 45107
+      },
+      {
+        "year": 2018,
+        "income": 48509
+      },
+      {
+        "year": 2019,
+        "income": 49584
+      },
+      {
+        "year": 2021,
+        "income": 54081
+      },
+      {
+        "year": 2022,
+        "income": 61103
+      },
+      {
+        "year": 2023,
+        "income": 64418
+      },
+      {
+        "year": 2024,
+        "income": 65369
+      }
+    ]
+  },
+  {
+    "group": "Hispanic or Latino (any race)",
+    "data": [
+      {
+        "year": 2008,
+        "income": 41470
+      },
+      {
+        "year": 2009,
+        "income": 39923
+      },
+      {
+        "year": 2011,
+        "income": 39589
+      },
+      {
+        "year": 2012,
+        "income": 40417
+      },
+      {
+        "year": 2013,
+        "income": 41508
+      },
+      {
+        "year": 2014,
+        "income": 42748
+      },
+      {
+        "year": 2015,
+        "income": 44782
+      },
+      {
+        "year": 2016,
+        "income": 46882
+      },
+      {
+        "year": 2017,
+        "income": 49793
+      },
+      {
+        "year": 2018,
+        "income": 51404
+      },
+      {
+        "year": 2019,
+        "income": 55658
+      },
+      {
+        "year": 2021,
+        "income": 60566
+      },
+      {
+        "year": 2022,
+        "income": 65882
+      },
+      {
+        "year": 2023,
+        "income": 69467
+      },
+      {
+        "year": 2024,
+        "income": 72574
+      }
+    ]
+  },
+  {
+    "group": "Honduran",
+    "data": [
+      {
+        "year": 2008,
+        "income": 36922
+      },
+      {
+        "year": 2009,
+        "income": 35021
+      },
+      {
+        "year": 2011,
+        "income": 31777
+      },
+      {
+        "year": 2012,
+        "income": 35076
+      },
+      {
+        "year": 2013,
+        "income": 36386
+      },
+      {
+        "year": 2014,
+        "income": 37071
+      },
+      {
+        "year": 2015,
+        "income": 37227
+      },
+      {
+        "year": 2016,
+        "income": 39974
+      },
+      {
+        "year": 2017,
+        "income": 41824
+      },
+      {
+        "year": 2018,
+        "income": 43197
+      },
+      {
+        "year": 2019,
+        "income": 47276
+      },
+      {
+        "year": 2021,
+        "income": 51375
+      },
+      {
+        "year": 2022,
+        "income": 55380
+      },
+      {
+        "year": 2023,
+        "income": 54711
+      },
+      {
+        "year": 2024,
+        "income": 58749
+      }
+    ]
+  },
+  {
+    "group": "Mexican",
+    "data": [
+      {
+        "year": 2008,
+        "income": 40647
+      },
+      {
+        "year": 2009,
+        "income": 39115
+      },
+      {
+        "year": 2011,
+        "income": 38884
+      },
+      {
+        "year": 2012,
+        "income": 39962
+      },
+      {
+        "year": 2013,
+        "income": 40848
+      },
+      {
+        "year": 2014,
+        "income": 42212
+      },
+      {
+        "year": 2015,
+        "income": 44433
+      },
+      {
+        "year": 2016,
+        "income": 46633
+      },
+      {
+        "year": 2017,
+        "income": 49439
+      },
+      {
+        "year": 2018,
+        "income": 51204
+      },
+      {
+        "year": 2019,
+        "income": 55943
+      },
+      {
+        "year": 2021,
+        "income": 60895
+      },
+      {
+        "year": 2022,
+        "income": 66481
+      },
+      {
+        "year": 2023,
+        "income": 70311
+      },
+      {
+        "year": 2024,
+        "income": 74008
+      }
+    ]
+  },
+  {
+    "group": "NHPI alone, not Hispanic or Latino",
+    "data": [
+      {
+        "year": 2008,
+        "income": 60335
+      },
+      {
+        "year": 2009,
+        "income": 53457
+      },
+      {
+        "year": 2011,
+        "income": 49425
+      },
+      {
+        "year": 2012,
+        "income": 51592
+      },
+      {
+        "year": 2013,
+        "income": 51032
+      },
+      {
+        "year": 2014,
+        "income": 52567
+      },
+      {
+        "year": 2015,
+        "income": 56727
+      },
+      {
+        "year": 2016,
+        "income": 58119
+      },
+      {
+        "year": 2017,
+        "income": 62024
+      },
+      {
+        "year": 2018,
+        "income": 63860
+      },
+      {
+        "year": 2019,
+        "income": 68258
+      },
+      {
+        "year": 2021,
+        "income": 72234
+      },
+      {
+        "year": 2022,
+        "income": 74058
+      },
+      {
+        "year": 2023,
+        "income": 76665
+      },
+      {
+        "year": 2024,
+        "income": 85674
+      }
+    ]
+  },
+  {
+    "group": "Nicaraguan",
+    "data": [
+      {
+        "year": 2008,
+        "income": 48945
+      },
+      {
+        "year": 2009,
+        "income": 47346
+      },
+      {
+        "year": 2011,
+        "income": 47625
+      },
+      {
+        "year": 2012,
+        "income": 45072
+      },
+      {
+        "year": 2013,
+        "income": 50357
+      },
+      {
+        "year": 2014,
+        "income": 50490
+      },
+      {
+        "year": 2015,
+        "income": 51509
+      },
+      {
+        "year": 2016,
+        "income": 52848
+      },
+      {
+        "year": 2017,
+        "income": 57984
+      },
+      {
+        "year": 2018,
+        "income": 60268
+      },
+      {
+        "year": 2019,
+        "income": 63073
+      },
+      {
+        "year": 2021,
+        "income": 68783
+      },
+      {
+        "year": 2022,
+        "income": 73790
+      },
+      {
+        "year": 2023,
+        "income": 74841
+      },
+      {
+        "year": 2024,
+        "income": 72423
+      }
+    ]
+  },
+  {
+    "group": "Panamanian",
+    "data": [
+      {
+        "year": 2008,
+        "income": 47827
+      },
+      {
+        "year": 2009,
+        "income": 47544
+      },
+      {
+        "year": 2011,
+        "income": 46868
+      },
+      {
+        "year": 2012,
+        "income": 54589
+      },
+      {
+        "year": 2013,
+        "income": 50430
+      },
+      {
+        "year": 2014,
+        "income": 55216
+      },
+      {
+        "year": 2015,
+        "income": 52421
+      },
+      {
+        "year": 2016,
+        "income": 55408
+      },
+      {
+        "year": 2017,
+        "income": 58329
+      },
+      {
+        "year": 2018,
+        "income": 56955
+      },
+      {
+        "year": 2019,
+        "income": 70895
+      },
+      {
+        "year": 2021,
+        "income": 65628
+      },
+      {
+        "year": 2022,
+        "income": 69864
+      },
+      {
+        "year": 2023,
+        "income": 80721
+      },
+      {
+        "year": 2024,
+        "income": 82020
+      }
+    ]
+  },
+  {
+    "group": "Peruvian",
+    "data": [
+      {
+        "year": 2008,
+        "income": 50901
+      },
+      {
+        "year": 2009,
+        "income": 48064
+      },
+      {
+        "year": 2011,
+        "income": 50638
+      },
+      {
+        "year": 2012,
+        "income": 50969
+      },
+      {
+        "year": 2013,
+        "income": 52171
+      },
+      {
+        "year": 2014,
+        "income": 53538
+      },
+      {
+        "year": 2015,
+        "income": 55926
+      },
+      {
+        "year": 2016,
+        "income": 58482
+      },
+      {
+        "year": 2017,
+        "income": 61138
+      },
+      {
+        "year": 2018,
+        "income": 64904
+      },
+      {
+        "year": 2019,
+        "income": 66845
+      },
+      {
+        "year": 2021,
+        "income": 70163
+      },
+      {
+        "year": 2022,
+        "income": 77024
+      },
+      {
+        "year": 2023,
+        "income": 83245
+      },
+      {
+        "year": 2024,
+        "income": 82146
+      }
+    ]
+  },
+  {
+    "group": "Puerto Rican",
+    "data": [
+      {
+        "year": 2008,
+        "income": 39039
+      },
+      {
+        "year": 2009,
+        "income": 37052
+      },
+      {
+        "year": 2011,
+        "income": 36460
+      },
+      {
+        "year": 2012,
+        "income": 36543
+      },
+      {
+        "year": 2013,
+        "income": 39660
+      },
+      {
+        "year": 2014,
+        "income": 39322
+      },
+      {
+        "year": 2015,
+        "income": 40774
+      },
+      {
+        "year": 2016,
+        "income": 42856
+      },
+      {
+        "year": 2017,
+        "income": 44731
+      },
+      {
+        "year": 2018,
+        "income": 46809
+      },
+      {
+        "year": 2019,
+        "income": 50473
+      },
+      {
+        "year": 2021,
+        "income": 53621
+      },
+      {
+        "year": 2022,
+        "income": 59268
+      },
+      {
+        "year": 2023,
+        "income": 61597
+      },
+      {
+        "year": 2024,
+        "income": 64509
+      }
+    ]
+  },
+  {
+    "group": "Salvadoran",
+    "data": [
+      {
+        "year": 2008,
+        "income": 43490
+      },
+      {
+        "year": 2009,
+        "income": 42141
+      },
+      {
+        "year": 2011,
+        "income": 41248
+      },
+      {
+        "year": 2012,
+        "income": 43399
+      },
+      {
+        "year": 2013,
+        "income": 44529
+      },
+      {
+        "year": 2014,
+        "income": 45645
+      },
+      {
+        "year": 2015,
+        "income": 47258
+      },
+      {
+        "year": 2016,
+        "income": 50102
+      },
+      {
+        "year": 2017,
+        "income": 52118
+      },
+      {
+        "year": 2018,
+        "income": 53684
+      },
+      {
+        "year": 2019,
+        "income": 58898
+      },
+      {
+        "year": 2021,
+        "income": 62906
+      },
+      {
+        "year": 2022,
+        "income": 69319
+      },
+      {
+        "year": 2023,
+        "income": 74076
+      },
+      {
+        "year": 2024,
+        "income": 76821
+      }
+    ]
+  },
+  {
+    "group": "Spaniard",
+    "data": [
+      {
+        "year": 2008,
+        "income": 54526
+      },
+      {
+        "year": 2009,
+        "income": 52761
+      },
+      {
+        "year": 2011,
+        "income": 53649
+      },
+      {
+        "year": 2012,
+        "income": 55924
+      },
+      {
+        "year": 2013,
+        "income": 54723
+      },
+      {
+        "year": 2014,
+        "income": 61065
+      },
+      {
+        "year": 2015,
+        "income": 61297
+      },
+      {
+        "year": 2016,
+        "income": 63566
+      },
+      {
+        "year": 2017,
+        "income": 67164
+      },
+      {
+        "year": 2018,
+        "income": 70480
+      },
+      {
+        "year": 2019,
+        "income": 71903
+      },
+      {
+        "year": 2021,
+        "income": 74364
+      },
+      {
+        "year": 2022,
+        "income": 82993
+      },
+      {
+        "year": 2023,
+        "income": 82381
+      },
+      {
+        "year": 2024,
+        "income": 87034
+      }
+    ]
+  },
+  {
+    "group": "Total US population",
+    "data": [
+      {
+        "year": 2008,
+        "income": 52029
+      },
+      {
+        "year": 2009,
+        "income": 50221
+      },
+      {
+        "year": 2011,
+        "income": 50502
+      },
+      {
+        "year": 2012,
+        "income": 51371
+      },
+      {
+        "year": 2013,
+        "income": 52250
+      },
+      {
+        "year": 2014,
+        "income": 53657
+      },
+      {
+        "year": 2015,
+        "income": 55775
+      },
+      {
+        "year": 2016,
+        "income": 57617
+      },
+      {
+        "year": 2017,
+        "income": 60336
+      },
+      {
+        "year": 2018,
+        "income": 61937
+      },
+      {
+        "year": 2019,
+        "income": 65712
+      },
+      {
+        "year": 2021,
+        "income": 69717
+      },
+      {
+        "year": 2022,
+        "income": 74755
+      },
+      {
+        "year": 2023,
+        "income": 77719
+      },
+      {
+        "year": 2024,
+        "income": 81604
+      }
+    ]
+  },
+  {
+    "group": "Venezuelan",
+    "data": [
+      {
+        "year": 2008,
+        "income": 53673
+      },
+      {
+        "year": 2009,
+        "income": 50584
+      },
+      {
+        "year": 2011,
+        "income": 52162
+      },
+      {
+        "year": 2012,
+        "income": 57194
+      },
+      {
+        "year": 2013,
+        "income": 55385
+      },
+      {
+        "year": 2014,
+        "income": 58808
+      },
+      {
+        "year": 2015,
+        "income": 55656
+      },
+      {
+        "year": 2016,
+        "income": 57205
+      },
+      {
+        "year": 2017,
+        "income": 52391
+      },
+      {
+        "year": 2018,
+        "income": 57967
+      },
+      {
+        "year": 2019,
+        "income": 54496
+      },
+      {
+        "year": 2021,
+        "income": 66615
+      },
+      {
+        "year": 2022,
+        "income": 69830
+      },
+      {
+        "year": 2023,
+        "income": 72777
+      },
+      {
+        "year": 2024,
+        "income": 74510
+      }
+    ]
+  },
+  {
+    "group": "White alone, not Hispanic or Latino",
+    "data": [
+      {
+        "year": 2008,
+        "income": 56826
+      },
+      {
+        "year": 2009,
+        "income": 54671
+      },
+      {
+        "year": 2011,
+        "income": 55305
+      },
+      {
+        "year": 2012,
+        "income": 56565
+      },
+      {
+        "year": 2013,
+        "income": 57684
+      },
+      {
+        "year": 2014,
+        "income": 59622
+      },
+      {
+        "year": 2015,
+        "income": 61394
+      },
+      {
+        "year": 2016,
+        "income": 63155
+      },
+      {
+        "year": 2017,
+        "income": 65845
+      },
+      {
+        "year": 2018,
+        "income": 67937
+      },
+      {
+        "year": 2019,
+        "income": 71664
+      },
+      {
+        "year": 2021,
+        "income": 75412
+      },
+      {
+        "year": 2022,
+        "income": 80404
+      },
+      {
+        "year": 2023,
+        "income": 83121
+      },
+      {
+        "year": 2024,
+        "income": 87572
+      }
+    ]
+  }
+]
